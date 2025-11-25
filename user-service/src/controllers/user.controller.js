@@ -12,6 +12,9 @@ const setRefreshTokenCookie = (res, token) => {
   });
 };
 
+
+// register user controller
+
 const registerUser = async (req, res) => {
   try {
     logger.info("Registration endpoint hit");
