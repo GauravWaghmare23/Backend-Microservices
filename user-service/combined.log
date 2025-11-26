@@ -147,3 +147,42 @@
 {"level":"info","message":"Request body: {\"username\":\"gauravwaghmare\",\"email\":\"gauravwaghmare95032@gmail.com\",\"password\":\"123456789\"}","service":"user>>-service","timestamp":"2025-11-26T15:38:30.497Z"}
 {"level":"info","message":"Registration endpoint hit","service":"user>>-service","timestamp":"2025-11-26T15:38:30.508Z"}
 {"level":"info","message":"User registered successfully: 69271ef6712fd3c7878bf252","service":"user>>-service","timestamp":"2025-11-26T15:38:30.762Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"user>>-service","timestamp":"2025-11-26T15:45:54.546Z"}
+{"level":"info","message":"Request body: {\"username\":\"gauravwaghmare\",\"email\":\"gauravwaghmare95032@gmail.com\",\"password\":\"123456789\"}","service":"user>>-service","timestamp":"2025-11-26T15:45:54.547Z"}
+{"level":"info","message":"Registration endpoint hit","service":"user>>-service","timestamp":"2025-11-26T15:45:54.550Z"}
+{"level":"info","message":"User registered successfully: 692720b2712fd3c7878bf257","service":"user>>-service","timestamp":"2025-11-26T15:45:54.781Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"user>>-service","timestamp":"2025-11-26T15:46:47.619Z"}
+{"level":"info","message":"Request body: {\"username\":\"gauravwaghmare\",\"email\":\"gauravwaghmare95032@gmail.com\",\"password\":\"123456789\"}","service":"user>>-service","timestamp":"2025-11-26T15:46:47.620Z"}
+{"level":"info","message":"Registration endpoint hit","service":"user>>-service","timestamp":"2025-11-26T15:46:47.622Z"}
+{"level":"warn","message":"User already exists","service":"user>>-service","timestamp":"2025-11-26T15:46:47.774Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"user>>-service","timestamp":"2025-11-26T15:46:49.008Z"}
+{"level":"info","message":"Request body: {\"username\":\"gauravwaghmare\",\"email\":\"gauravwaghmare95032@gmail.com\",\"password\":\"123456789\"}","service":"user>>-service","timestamp":"2025-11-26T15:46:49.009Z"}
+{"level":"info","message":"Registration endpoint hit","service":"user>>-service","timestamp":"2025-11-26T15:46:49.012Z"}
+{"level":"warn","message":"User already exists","service":"user>>-service","timestamp":"2025-11-26T15:46:49.072Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"user>>-service","timestamp":"2025-11-26T15:46:50.741Z"}
+{"level":"info","message":"Request body: {\"username\":\"gauravwaghmare\",\"email\":\"gauravwaghmare95032@gmail.com\",\"password\":\"123456789\"}","service":"user>>-service","timestamp":"2025-11-26T15:46:50.741Z"}
+{"level":"info","message":"Registration endpoint hit","service":"user>>-service","timestamp":"2025-11-26T15:46:50.743Z"}
+{"level":"warn","message":"User already exists","service":"user>>-service","timestamp":"2025-11-26T15:46:50.814Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"user>>-service","timestamp":"2025-11-26T15:46:52.034Z"}
+{"level":"info","message":"Request body: {\"username\":\"gauravwaghmare\",\"email\":\"gauravwaghmare95032@gmail.com\",\"password\":\"123456789\"}","service":"user>>-service","timestamp":"2025-11-26T15:46:52.035Z"}
+{"level":"info","message":"Registration endpoint hit","service":"user>>-service","timestamp":"2025-11-26T15:46:52.037Z"}
+{"level":"warn","message":"User already exists","service":"user>>-service","timestamp":"2025-11-26T15:46:52.141Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"user>>-service","timestamp":"2025-11-26T15:46:53.129Z"}
+{"level":"info","message":"Request body: {\"username\":\"gauravwaghmare\",\"email\":\"gauravwaghmare95032@gmail.com\",\"password\":\"123456789\"}","service":"user>>-service","timestamp":"2025-11-26T15:46:53.129Z"}
+{"level":"info","message":"Registration endpoint hit","service":"user>>-service","timestamp":"2025-11-26T15:46:53.131Z"}
+{"level":"warn","message":"User already exists","service":"user>>-service","timestamp":"2025-11-26T15:46:53.192Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"user>>-service","timestamp":"2025-11-26T15:46:54.251Z"}
+{"level":"info","message":"Request body: {\"username\":\"gauravwaghmare\",\"email\":\"gauravwaghmare95032@gmail.com\",\"password\":\"123456789\"}","service":"user>>-service","timestamp":"2025-11-26T15:46:54.251Z"}
+{"level":"info","message":"Registration endpoint hit","service":"user>>-service","timestamp":"2025-11-26T15:46:54.253Z"}
+{"level":"warn","message":"User already exists","service":"user>>-service","timestamp":"2025-11-26T15:46:54.308Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"user>>-service","timestamp":"2025-11-26T15:46:55.277Z"}
+{"level":"info","message":"Request body: {\"username\":\"gauravwaghmare\",\"email\":\"gauravwaghmare95032@gmail.com\",\"password\":\"123456789\"}","service":"user>>-service","timestamp":"2025-11-26T15:46:55.279Z"}
+{"level":"info","message":"Registration endpoint hit","service":"user>>-service","timestamp":"2025-11-26T15:46:55.281Z"}
+{"level":"warn","message":"User already exists","service":"user>>-service","timestamp":"2025-11-26T15:46:55.337Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"user>>-service","timestamp":"2025-11-26T15:46:56.443Z"}
+{"level":"info","message":"Request body: {\"username\":\"gauravwaghmare\",\"email\":\"gauravwaghmare95032@gmail.com\",\"password\":\"123456789\"}","service":"user>>-service","timestamp":"2025-11-26T15:46:56.466Z"}
+{"level":"warn","message":"Endpoint rate limit far exceeded for IP: ::1","service":"user>>-service","timestamp":"2025-11-26T15:46:56.468Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"user>>-service","timestamp":"2025-11-26T15:51:46.251Z"}
+{"level":"info","message":"Request body: {\"username\":\"gauravwaghmare\",\"email\":\"gauravwaghmare95032@gmail.com\",\"password\":\"123456789\"}","service":"user>>-service","timestamp":"2025-11-26T15:51:46.251Z"}
+{"level":"info","message":"Registration endpoint hit","service":"user>>-service","timestamp":"2025-11-26T15:51:46.252Z"}
+{"level":"warn","message":"User already exists","service":"user>>-service","timestamp":"2025-11-26T15:51:46.312Z"}
