@@ -10,12 +10,11 @@ if (!MONGODB_URI) {
 
 const connectDb = async () => {
   try {
-    const connection = await mongoose.connect(MONGODB_URI);
-
-    connection.on("connected", () => {
+    const connection = await mongoose.connect(MONGODB_URI).then(() => {
       logger.info("Connected to MongoDB");
-      console.log("Connected to MongoDB");
-    });
+    }).catch((error) => {
+      logger.warn("Error connecting to MongoDB", { error });
+    })
   } catch (error) {
     logger.error("Error connecting to MongoDB", { error });
     console.error("Error connecting to MongoDB:", error);

@@ -1,5 +1,5 @@
-const userModel = require("../models/user.model.js");
-const { generateTokens } = require("../utils/generateToken.js"); // Returns { accessToken, refreshToken }
+const userModel = require("../models/user.model.js"); // Returns { accessToken, refreshToken }
+const { generateAccessToken, generateRefreshToken } = require("../utils/generateToken.js");
 const logger = require("../utils/logger.js");
 const { validateRegistration } = require("../utils/validation.js");
 
@@ -43,7 +43,8 @@ const registerUser = async (req, res) => {
     await user.save();
     logger.info(`User registered successfully: ${user._id}`);
 
-    const { accessToken, refreshToken } = generateTokens(user);
+    const accessToken = generateAccessToken(user);
+    const refreshToken = await generateRefreshToken(user);
 
     setRefreshTokenCookie(res, refreshToken);
     
