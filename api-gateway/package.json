@@ -23,6 +23,7 @@
     "helmet": "^8.1.0",
     "ioredis": "^5.8.2",
     "jsonwebtoken": "^9.0.2",
+    "rate-limit-redis": "^4.3.0",
     "winston": "^3.18.3"
   }
 }

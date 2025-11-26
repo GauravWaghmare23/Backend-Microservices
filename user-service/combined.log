@@ -186,3 +186,5 @@
 {"level":"info","message":"Request body: {\"username\":\"gauravwaghmare\",\"email\":\"gauravwaghmare95032@gmail.com\",\"password\":\"123456789\"}","service":"user>>-service","timestamp":"2025-11-26T15:51:46.251Z"}
 {"level":"info","message":"Registration endpoint hit","service":"user>>-service","timestamp":"2025-11-26T15:51:46.252Z"}
 {"level":"warn","message":"User already exists","service":"user>>-service","timestamp":"2025-11-26T15:51:46.312Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-26T17:58:42.176Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-26T17:58:42.833Z"}
