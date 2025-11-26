@@ -210,3 +210,17 @@
 {"level":"info","message":"Request body: {\"username\":\"gauravwaghmare2\",\"email\":\"gauravwaghmare2@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-26T18:13:57.065Z"}
 {"level":"info","message":"Registration endpoint hit","service":"user-service","timestamp":"2025-11-26T18:13:57.067Z"}
 {"level":"warn","message":"User already exists","service":"user-service","timestamp":"2025-11-26T18:13:57.109Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-26T18:17:16.887Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-26T18:17:17.457Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"user-service","timestamp":"2025-11-26T18:17:20.485Z"}
+{"level":"info","message":"Request body: {\"username\":\"gauravwaghmare3\",\"email\":\"gauravwaghmare3@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-26T18:17:20.486Z"}
+{"level":"info","message":"Registration endpoint hit","service":"user-service","timestamp":"2025-11-26T18:17:20.496Z"}
+{"level":"info","message":"User registered successfully: 69274430a4f6117cdc9bbd54","service":"user-service","timestamp":"2025-11-26T18:17:20.719Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"user-service","timestamp":"2025-11-26T18:17:31.139Z"}
+{"level":"info","message":"Request body: {\"username\":\"gauravwaghmare3\",\"email\":\"gauravwaghmare3@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-26T18:17:31.151Z"}
+{"level":"info","message":"Registration endpoint hit","service":"user-service","timestamp":"2025-11-26T18:17:31.160Z"}
+{"level":"warn","message":"User already exists","service":"user-service","timestamp":"2025-11-26T18:17:31.247Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"user-service","timestamp":"2025-11-26T18:17:34.123Z"}
+{"level":"info","message":"Request body: {\"username\":\"gauravwaghmare3\",\"email\":\"gauravwaghmare3@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-26T18:17:34.127Z"}
+{"level":"info","message":"Registration endpoint hit","service":"user-service","timestamp":"2025-11-26T18:17:34.141Z"}
+{"level":"warn","message":"User already exists","service":"user-service","timestamp":"2025-11-26T18:17:34.185Z"}
