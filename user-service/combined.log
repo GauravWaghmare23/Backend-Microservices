@@ -188,3 +188,5 @@
 {"level":"warn","message":"User already exists","service":"user>>-service","timestamp":"2025-11-26T15:51:46.312Z"}
 {"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-26T17:58:42.176Z"}
 {"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-26T17:58:42.833Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-26T18:07:24.930Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-26T18:07:25.574Z"}
