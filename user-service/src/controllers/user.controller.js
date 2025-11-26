@@ -46,6 +46,7 @@ const registerUser = async (req, res) => {
     const { accessToken, refreshToken } = generateTokens(user);
 
     setRefreshTokenCookie(res, refreshToken);
+    
     return res.status(201).json({
       success: true,
       message: "Registration successful.",
