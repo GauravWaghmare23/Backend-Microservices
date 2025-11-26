@@ -90,6 +90,10 @@ app.listen(PORT, () => {
     logger.info(`User Server running on port http://localhost:${PORT}`);
 })
 
+process.on("unhandledRejection", (reason,promise) => { // for unhandled promise rejections
+    logger.error("Unhandled rejection at promise", promise, "reason : ", { reason });
+});
+
 
 
 
