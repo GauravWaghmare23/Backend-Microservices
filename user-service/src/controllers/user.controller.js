@@ -1,3 +1,4 @@
+// controllers/user.controller.js
 const refreshTokenModel = require("../models/refreshToken.model.js");
 const userModel = require("../models/user.model.js");
 const {
@@ -15,12 +16,11 @@ const setRefreshTokenCookie = (res, token) => {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
     sameSite: "Strict",
-    maxAge: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000),
+    maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days in ms
   });
 };
 
-// register user controller
-
+// Register user controller
 const registerUser = async (req, res) => {
   try {
     logger.info("Registration endpoint hit");
@@ -53,14 +53,13 @@ const registerUser = async (req, res) => {
 
     setRefreshTokenCookie(res, refreshToken);
 
+    logger.info(`User registered successfully: ${user._id}`);
     return res.status(201).json({
       success: true,
       message: "Registration successful.",
       accessToken,
       user: { _id: user._id, username: user.username, email: user.email },
     });
-
-    logger.info(`User registered successfully: ${user._id}`);
   } catch (error) {
     logger.error(`Registration error: ${error.message}`);
     const message =
@@ -71,8 +70,7 @@ const registerUser = async (req, res) => {
   }
 };
 
-// login user controller
-
+// Login user controller
 const loginUser = async (req, res) => {
   try {
     logger.info("Login endpoint hit");
@@ -111,14 +109,13 @@ const loginUser = async (req, res) => {
 
     setRefreshTokenCookie(res, refreshToken);
 
+    logger.info(`User logged in successfully: ${user._id}`);
     return res.status(200).json({
       success: true,
       message: "Login successful.",
       accessToken,
       user: { _id: user._id, username: user.username, email: user.email },
     });
-
-    logger.info(`User Logined successfully: ${user._id}`);
   } catch (error) {
     logger.error(`Login error: ${error.message}`);
     const message =
@@ -129,40 +126,41 @@ const loginUser = async (req, res) => {
   }
 };
 
-
-const refreshToken = async (req, res) => {
-  logger.info('Refresh token endpoint hit');
+// Refresh token controller
+const UserRefreshToken = async (req, res) => {
+  logger.info("Refresh token endpoint hit");
   try {
-    const { refreshToken } = req.cookies.refreshToken || req.headers.authorization;
+    const refreshToken = req.cookies.refreshToken; 
 
     if (!refreshToken) {
-      logger.warn('Refresh token not found');
-      return res.status(401).json({ success: false, message: 'Unauthorized' });
+      logger.warn("Refresh token not found");
+      return res.status(401).json({ success: false, message: "Unauthorized" });
     }
 
-    const storedRefreshToken = await refreshTokenModel.findOne({ token: refreshToken });
+    const storedRefreshToken = await refreshTokenModel.findOne({
+      token: refreshToken,
+    });
 
     if (!storedRefreshToken) {
-      logger.warn('Refresh token not found in database');
-      return res.status(401).json({ success: false, message: 'Unauthorized' });
+      logger.warn("Refresh token not found in database");
+      return res.status(401).json({ success: false, message: "Unauthorized" });
     }
 
     const user = await userModel.findById(storedRefreshToken.user);
     if (!user) {
-      logger.warn('User not found');
-      return res.status(401).json({ success: false, message: 'Unauthorized' });
+      logger.warn("User not found");
+      return res.status(401).json({ success: false, message: "Unauthorized" });
     }
 
     const accessToken = generateAccessToken(user);
     const newRefreshToken = await generateRefreshToken(user);
 
-    await refreshTokenModel.deleteOne({_id: storedRefreshToken._id});
-
+    await refreshTokenModel.deleteOne({ _id: storedRefreshToken._id });
     setRefreshTokenCookie(res, newRefreshToken);
 
     return res.status(200).json({
       success: true,
-      message: 'Refresh token created successfully.',
+      message: "Refresh token created successfully.",
       accessToken,
       user: { _id: user._id, username: user.username, email: user.email },
     });
@@ -174,6 +172,42 @@ const refreshToken = async (req, res) => {
         : error.message;
     return res.status(500).json({ success: false, message });
   }
-}
+};
 
-module.exports = { registerUser, loginUser };
+// Logout controller
+const userLogout = async (req, res) => {
+  logger.info("Logout endpoint hit");
+  try {
+    const refreshToken = req.cookies.refreshToken; 
+
+    if (!refreshToken) {
+      logger.warn("Refresh token not found");
+      return res.status(401).json({ success: false, message: "Unauthorized" });
+    }
+
+    const storedRefreshToken = await refreshTokenModel.findOne({
+      token: refreshToken,
+    });
+
+    if (!storedRefreshToken) {
+      logger.warn("Refresh token not found in database");
+      return res.status(401).json({ success: false, message: "Unauthorized" });
+    }
+
+    await refreshTokenModel.deleteOne({ _id: storedRefreshToken._id });
+    res.clearCookie("refreshToken");
+
+    return res
+      .status(200)
+      .json({ success: true, message: "Logout successful." });
+  } catch (error) {
+    logger.error(`Logout error: ${error.message}`);
+    const message =
+      process.env.NODE_ENV === "production"
+        ? "Internal Server Error"
+        : error.message;
+    return res.status(500).json({ success: false, message });
+  }
+};
+
+module.exports = { registerUser, loginUser, UserRefreshToken, userLogout };
