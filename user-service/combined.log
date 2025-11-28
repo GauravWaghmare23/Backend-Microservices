@@ -336,3 +336,14 @@
 {"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:17:14.084Z"}
 {"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:17:15.271Z"}
 {"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:17:15.832Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T15:23:22.081Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T15:23:25.306Z"}
+{"level":"info","message":"Recieved GET request to /api/auth/refresh","service":"user-service","timestamp":"2025-11-28T15:23:51.361Z"}
+{"level":"info","message":"Request body: {\"email\":\"gauravwaghmare2@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-28T15:23:51.362Z"}
+{"level":"info","message":"Refresh token endpoint hit","service":"user-service","timestamp":"2025-11-28T15:23:51.388Z"}
+{"level":"info","message":"Recieved GET request to /api/auth/refresh","service":"user-service","timestamp":"2025-11-28T15:24:34.492Z"}
+{"level":"info","message":"Request body: {}","service":"user-service","timestamp":"2025-11-28T15:24:34.493Z"}
+{"level":"info","message":"Refresh token endpoint hit","service":"user-service","timestamp":"2025-11-28T15:24:34.495Z"}
+{"level":"info","message":"Recieved DELETE request to /api/auth/logout","service":"user-service","timestamp":"2025-11-28T15:25:32.656Z"}
+{"level":"info","message":"Request body: {}","service":"user-service","timestamp":"2025-11-28T15:25:32.659Z"}
+{"level":"info","message":"Logout endpoint hit","service":"user-service","timestamp":"2025-11-28T15:25:32.664Z"}

@@ -1,4 +1,3 @@
-// controllers/user.controller.js
 const refreshTokenModel = require("../models/refreshToken.model.js");
 const userModel = require("../models/user.model.js");
 const {
@@ -16,11 +15,11 @@ const setRefreshTokenCookie = (res, token) => {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
     sameSite: "Strict",
-    maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days in ms
+    maxAge: 7 * 24 * 60 * 60 * 1000,
   });
 };
 
-// Register user controller
+
 const registerUser = async (req, res) => {
   try {
     logger.info("Registration endpoint hit");
@@ -70,7 +69,7 @@ const registerUser = async (req, res) => {
   }
 };
 
-// Login user controller
+
 const loginUser = async (req, res) => {
   try {
     logger.info("Login endpoint hit");
@@ -126,7 +125,7 @@ const loginUser = async (req, res) => {
   }
 };
 
-// Refresh token controller
+
 const UserRefreshToken = async (req, res) => {
   logger.info("Refresh token endpoint hit");
   try {
@@ -174,7 +173,7 @@ const UserRefreshToken = async (req, res) => {
   }
 };
 
-// Logout controller
+
 const userLogout = async (req, res) => {
   logger.info("Logout endpoint hit");
   try {
