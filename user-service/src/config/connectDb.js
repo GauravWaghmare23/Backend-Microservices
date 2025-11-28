@@ -5,7 +5,7 @@ const logger = require("../utils/logger");
 const MONGODB_URI = process.env.MONGODB_URI;
 
 if (!MONGODB_URI) {
-  throw new Error("MONGODB_URI is not defined");
+  throw new Error("MONGODB_URI is not defined in user-service");
 }
 
 const connectDb = async () => {
@@ -13,11 +13,11 @@ const connectDb = async () => {
     const connection = await mongoose.connect(MONGODB_URI).then(() => {
       logger.info("Connected to MongoDB");
     }).catch((error) => {
-      logger.warn("Error connecting to MongoDB", { error });
+      logger.warn("Error connecting to MongoDB in user-service", { error });
     })
   } catch (error) {
-    logger.error("Error connecting to MongoDB", { error });
-    console.error("Error connecting to MongoDB:", error);
+    logger.error("Error connecting to MongoDB in user-service", { error });
+    console.error("Error connecting to MongoDB in user-service :", error);
     process.exit(1);
   }
 };
