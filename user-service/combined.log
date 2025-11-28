@@ -224,3 +224,115 @@
 {"level":"info","message":"Request body: {\"username\":\"gauravwaghmare3\",\"email\":\"gauravwaghmare3@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-26T18:17:34.127Z"}
 {"level":"info","message":"Registration endpoint hit","service":"user-service","timestamp":"2025-11-26T18:17:34.141Z"}
 {"level":"warn","message":"User already exists","service":"user-service","timestamp":"2025-11-26T18:17:34.185Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-27T12:54:12.567Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-27T12:54:15.880Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"user-service","timestamp":"2025-11-27T12:57:08.941Z"}
+{"level":"info","message":"Request body: {\"email\":\"gauravwaghmare2@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-27T12:57:08.942Z"}
+{"level":"info","message":"Login endpoint hit","service":"user-service","timestamp":"2025-11-27T12:57:08.971Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-27T13:10:02.772Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-27T13:10:05.196Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-27T15:43:41.645Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T12:52:34.439Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T12:52:35.625Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"user-service","timestamp":"2025-11-28T12:52:48.422Z"}
+{"level":"info","message":"Request body: {\"email\":\"gauravwaghmare2@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-28T12:52:48.424Z"}
+{"level":"info","message":"Login endpoint hit","service":"user-service","timestamp":"2025-11-28T12:52:48.430Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T12:54:55.172Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T12:54:55.895Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T12:55:29.641Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T12:55:31.268Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T12:55:36.529Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T12:55:37.388Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T12:55:45.334Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T12:55:46.495Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T12:55:53.360Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T12:55:53.888Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T12:55:57.297Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T12:55:57.953Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T12:56:00.060Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T12:56:00.641Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T12:56:06.475Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T12:56:07.568Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T12:56:08.222Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T12:56:11.307Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T12:56:12.012Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T12:56:13.515Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T12:56:14.388Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T12:56:51.314Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T12:56:51.837Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T12:56:59.460Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T12:57:00.107Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T12:57:01.384Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T12:57:01.797Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T12:57:07.644Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T12:57:08.743Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T12:57:09.304Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T12:57:14.959Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T12:57:15.614Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:01:01.109Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:01:01.695Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:01:08.145Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:01:08.556Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:01:29.869Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:01:30.386Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:01:34.768Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:01:35.348Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:01:39.327Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:01:39.812Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:01:44.064Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:01:44.494Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:01:45.408Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:01:45.919Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:01:47.731Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:01:48.462Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:01:57.451Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:01:57.967Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:02:08.605Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:02:09.543Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:03:57.691Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:03:58.315Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:04:00.879Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:04:01.335Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:04:04.800Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:04:05.355Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:04:12.284Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:04:12.806Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:04:13.840Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:04:14.401Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:04:20.281Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:04:20.767Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:04:22.901Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:04:23.341Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:04:25.674Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:04:26.094Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:04:27.159Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:04:27.687Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:04:29.209Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:04:29.716Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:04:34.172Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:04:34.695Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:04:38.432Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:04:39.039Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:05:08.432Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:05:10.041Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:05:11.215Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:05:12.109Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:05:20.012Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:05:20.953Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:05:22.699Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:05:24.107Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:05:29.995Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:05:31.092Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:05:33.120Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:05:34.258Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:16:44.650Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:16:45.265Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:16:46.430Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:16:46.966Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:16:48.139Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:16:48.684Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:17:09.595Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:17:10.165Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:17:14.084Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-28T13:17:15.271Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-28T13:17:15.832Z"}

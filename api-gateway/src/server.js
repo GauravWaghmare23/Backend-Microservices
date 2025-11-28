@@ -8,6 +8,7 @@ const { RedisStore } = require("rate-limit-redis");
 const logger = require("./utils/logger.js");
 const proxy = require("express-http-proxy");
 const errorHandler = require("./middlewares/errorHandler.middleware.js");
+const cookieParser = require("cookie-parser");
 
 // assigning variables or values
 const app = express();
@@ -19,6 +20,7 @@ app.use(helmet());
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(cookieParser());
 
 app.use((req, res, next) => {
   // middleware to log requests

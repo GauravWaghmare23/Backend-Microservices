@@ -11,6 +11,7 @@ const { rateLimit } = require('express-rate-limit');
 const { RedisStore } = require('rate-limit-redis');
 const routes = require('./routes/user.route.js')
 const errorHandler = require('./middlewares/errorHandler.middleware.js')
+const cookieParser = require('cookie-parser');
 
 //connect database
 connectDb();
@@ -26,6 +27,7 @@ app.use(helmet()); // set security headers and prevent attacks from common vulne
 app.use(cors()); // enable CORS for all routes which allows cross-origin requests 
 app.use(express.json()); // for parsing application/json 
 app.use(express.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
+app.use(cookieParser()); // for parsing cookies and accessing them in req.cookies
 
 app.use((req, res, next) => { // middleware to log requests 
     logger.info(`Recieved ${req.method} request to ${req.url}`);
