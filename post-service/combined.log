@@ -672,3 +672,27 @@
 {"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-11-29T17:44:20.923Z"}
 {"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-11-29T17:45:51.415Z"}
 {"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-11-29T17:45:52.090Z"}
+{"level":"info","message":"Incoming request: GET /api/posts/all-posts","service":"post-service","timestamp":"2025-11-29T17:50:48.466Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-11-29T17:50:48.467Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-29T17:50:48.472Z"}
+{"level":"info","message":"get all posts endpoint hit","service":"post-service","timestamp":"2025-11-29T17:50:48.474Z"}
+{"level":"info","message":"Fetching posts from cacheKey : posts:1 :10","service":"post-service","timestamp":"2025-11-29T17:50:48.476Z"}
+{"level":"info","message":"Posts fetched successfully","service":"post-service","timestamp":"2025-11-29T17:50:48.639Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-11-29T17:51:50.512Z"}
+{"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-11-29T17:51:51.804Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-11-29T17:51:54.069Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-11-29T17:52:05.776Z"}
+{"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-11-29T17:52:06.326Z"}
+{"level":"info","message":"Incoming request: POST /api/posts/comment/692b2c982eeae0653a4378df/692b2fcde604bf16fccf1c3c","service":"post-service","timestamp":"2025-11-29T17:53:18.039Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-11-29T17:53:18.042Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-29T17:53:18.047Z"}
+{"level":"info","message":"Incoming request: DELETE /api/posts/comment/692b2c982eeae0653a4378df/692b2fcde604bf16fccf1c3c","service":"post-service","timestamp":"2025-11-29T17:53:24.014Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-11-29T17:53:24.016Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-29T17:53:24.018Z"}
+{"level":"info","message":"delete comment post endpoint hit","service":"post-service","timestamp":"2025-11-29T17:53:24.024Z"}
+{"level":"info","message":"Incoming request: GET /api/posts/all-posts","service":"post-service","timestamp":"2025-11-29T17:53:28.827Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-11-29T17:53:28.828Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-29T17:53:28.829Z"}
+{"level":"info","message":"get all posts endpoint hit","service":"post-service","timestamp":"2025-11-29T17:53:28.830Z"}
+{"level":"info","message":"Fetching posts from cacheKey : posts:1 :10","service":"post-service","timestamp":"2025-11-29T17:53:28.831Z"}
+{"level":"info","message":"Posts fetched successfully","service":"post-service","timestamp":"2025-11-29T17:53:29.006Z"}
