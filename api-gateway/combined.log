@@ -210,3 +210,16 @@
 {"level":"info","message":"Body: {\"title\":\"post 2\",\"content\":\"post 2 content\",\"mediaUrls\":\"post2url\"}","service":"api-gateway","timestamp":"2025-11-29T10:02:49.287Z"}
 {"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T10:02:49.288Z"}
 {"level":"info","message":"User authenticated: 6927431401357ddb3d0920d9","service":"api-gateway","timestamp":"2025-11-29T10:02:49.289Z"}
+{"level":"info","message":"Received GET /v1/auth/refresh","service":"api-gateway","timestamp":"2025-11-29T10:30:06.803Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-29T10:30:06.804Z"}
+{"level":"info","message":"Received POST /v1/auth/login","service":"api-gateway","timestamp":"2025-11-29T10:30:42.971Z"}
+{"level":"info","message":"Body: {\"email\":\"gauravwaghmare2@gmail.com\",\"password\":\"123456789\"}","service":"api-gateway","timestamp":"2025-11-29T10:30:42.973Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-29T10:30:57.581Z"}
+{"level":"info","message":"Body: {\"title\":\"post 3\",\"content\":\"post 3 content\",\"mediaUrls\":\"post3url\"}","service":"api-gateway","timestamp":"2025-11-29T10:30:57.584Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T10:30:57.585Z"}
+{"level":"info","message":"User authenticated: 6927431401357ddb3d0920d9","service":"api-gateway","timestamp":"2025-11-29T10:30:57.588Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-29T10:53:33.191Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T10:53:33.193Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-29T10:53:34.453Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T10:53:34.456Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-29T10:53:34.456Z"}

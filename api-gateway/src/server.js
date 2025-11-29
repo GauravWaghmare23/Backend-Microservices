@@ -88,4 +88,5 @@ app.use(errorHandler);
 app.listen(PORT, () => {
   logger.info(`🚀 API Gateway running on http://localhost:${PORT}`);
   logger.info(`User Service: ${process.env.USER_SERVICE_URL}`);
+  logger.info(`Post Service: ${process.env.POST_SERVICE_URL}`);
 });

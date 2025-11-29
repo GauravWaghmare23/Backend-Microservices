@@ -72,7 +72,10 @@ app.use('/api/posts/create',sensitiveEndpointLimiter);
 
 // routes
 
-app.use("/api/posts" ,routes);
+app.use("/api/posts", (req, res, next) => {
+  req.redisClient = redisClient;
+  next();
+} ,routes);
 
 // error handler middleware
 app.use(errorHandler);
@@ -80,4 +83,9 @@ app.use(errorHandler);
 // port listening
 app.listen(PORT, () => {
   logger.info(`Post Server running on port http://localhost:${PORT}`);
+});
+
+
+process.on("unhandledRejection", (reason,promise) => { // for unhandled promise rejections
+    logger.error("Unhandled rejection at promise", promise, "reason : ", { reason });
 });
