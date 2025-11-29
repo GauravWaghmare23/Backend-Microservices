@@ -172,3 +172,41 @@
 {"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T09:45:02.117Z"}
 {"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-29T09:45:07.510Z"}
 {"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T09:45:07.513Z"}
+{"level":"info","message":"Received DELETE /v1/auth/logout","service":"api-gateway","timestamp":"2025-11-29T09:46:47.212Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-29T09:46:47.218Z"}
+{"level":"info","message":"Received POST /v1/auth/login","service":"api-gateway","timestamp":"2025-11-29T09:46:52.573Z"}
+{"level":"info","message":"Body: {\"email\":\"gauravwaghmare2@gmail.com\",\"password\":\"123456789\"}","service":"api-gateway","timestamp":"2025-11-29T09:46:52.574Z"}
+{"level":"info","message":"Received POST /v1/auth/login","service":"api-gateway","timestamp":"2025-11-29T09:48:56.690Z"}
+{"level":"info","message":"Body: {\"email\":\"gauravwaghmare2@gmail.com\",\"password\":\"123456789\"}","service":"api-gateway","timestamp":"2025-11-29T09:48:56.691Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-29T09:49:14.188Z"}
+{"level":"info","message":"Body: {\"title\":\"post 1\",\"content\":\"post 1 content\",\"mediaUrls\":\"post1url\"}","service":"api-gateway","timestamp":"2025-11-29T09:49:14.189Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T09:49:14.192Z"}
+{"level":"info","message":"User authenticated: 6927431401357ddb3d0920d9","service":"api-gateway","timestamp":"2025-11-29T09:49:14.198Z"}
+{"level":"info","message":"Received DELETE /v1/auth/logout","service":"api-gateway","timestamp":"2025-11-29T09:51:24.719Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-29T09:51:24.720Z"}
+{"level":"info","message":"Received POST /v1/auth/login","service":"api-gateway","timestamp":"2025-11-29T09:51:28.958Z"}
+{"level":"info","message":"Body: {\"email\":\"gauravwaghmare2@gmail.com\",\"password\":\"123456789\"}","service":"api-gateway","timestamp":"2025-11-29T09:51:28.960Z"}
+{"level":"info","message":"Received DELETE /v1/auth/logout","service":"api-gateway","timestamp":"2025-11-29T09:51:45.466Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-29T09:51:45.467Z"}
+{"level":"info","message":"Received POST /v1/auth/login","service":"api-gateway","timestamp":"2025-11-29T09:52:07.346Z"}
+{"level":"info","message":"Body: {\"email\":\"gauravwaghmare2@gmail.com\",\"password\":\"123456789\"}","service":"api-gateway","timestamp":"2025-11-29T09:52:07.347Z"}
+{"level":"info","message":"Received DELETE /v1/auth/logout","service":"api-gateway","timestamp":"2025-11-29T09:54:25.293Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-29T09:54:25.293Z"}
+{"level":"info","message":"Received POST /v1/auth/login","service":"api-gateway","timestamp":"2025-11-29T09:55:21.622Z"}
+{"level":"info","message":"Body: {\"email\":\"gauravwaghmare2@gmail.com\",\"password\":\"123456789\"}","service":"api-gateway","timestamp":"2025-11-29T09:55:21.623Z"}
+{"level":"info","message":"Received DELETE /v1/auth/logout","service":"api-gateway","timestamp":"2025-11-29T09:57:41.076Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-29T09:57:41.076Z"}
+{"level":"info","message":"Received POST /v1/auth/login","service":"api-gateway","timestamp":"2025-11-29T09:57:46.728Z"}
+{"level":"info","message":"Body: {\"email\":\"gauravwaghmare2@gmail.com\",\"password\":\"123456789\"}","service":"api-gateway","timestamp":"2025-11-29T09:57:46.728Z"}
+{"level":"info","message":"Received GET /v1/auth/refresh","service":"api-gateway","timestamp":"2025-11-29T10:01:22.439Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-29T10:01:22.441Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-29T10:01:53.848Z"}
+{"level":"info","message":"Body: {\"title\":\"post 2\",\"content\":\"post 2 content\",\"mediaUrls\":\"post2url\"}","service":"api-gateway","timestamp":"2025-11-29T10:01:53.849Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T10:01:53.851Z"}
+{"level":"error","message":"Token validation error: undefined","service":"api-gateway","timestamp":"2025-11-29T10:01:53.851Z"}
+{"level":"info","message":"Received GET /v1/auth/refresh","service":"api-gateway","timestamp":"2025-11-29T10:02:39.841Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-29T10:02:39.842Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-29T10:02:49.287Z"}
+{"level":"info","message":"Body: {\"title\":\"post 2\",\"content\":\"post 2 content\",\"mediaUrls\":\"post2url\"}","service":"api-gateway","timestamp":"2025-11-29T10:02:49.287Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T10:02:49.288Z"}
+{"level":"info","message":"User authenticated: 6927431401357ddb3d0920d9","service":"api-gateway","timestamp":"2025-11-29T10:02:49.289Z"}

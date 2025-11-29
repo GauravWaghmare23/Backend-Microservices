@@ -6,3 +6,4 @@
 {"level":"error","message":"Token validation error: undefined","service":"api-gateway","timestamp":"2025-11-29T09:37:30.406Z"}
 {"level":"error","message":"Token validation error: undefined","service":"api-gateway","timestamp":"2025-11-29T09:38:02.404Z"}
 {"level":"error","message":"Token validation error: undefined","service":"api-gateway","timestamp":"2025-11-29T09:38:59.032Z"}
+{"level":"error","message":"Token validation error: undefined","service":"api-gateway","timestamp":"2025-11-29T10:01:53.851Z"}
