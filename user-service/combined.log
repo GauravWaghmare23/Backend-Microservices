@@ -520,3 +520,7 @@
 {"level":"info","message":"User logged in successfully: 6927431401357ddb3d0920d9","service":"user-service","timestamp":"2025-11-29T16:16:16.694Z"}
 {"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T16:19:21.917Z"}
 {"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T16:19:22.832Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T16:21:29.812Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T16:21:31.648Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T16:21:35.470Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T16:21:36.308Z"}

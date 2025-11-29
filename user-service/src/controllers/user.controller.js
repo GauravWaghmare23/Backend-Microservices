@@ -11,7 +11,6 @@ const {
 } = require("../utils/validation.js");
 
 const setRefreshTokenCookie = (res, refreshToken, accessToken) => {
-
   res.cookie("refreshToken", refreshToken, {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
@@ -19,13 +18,16 @@ const setRefreshTokenCookie = (res, refreshToken, accessToken) => {
     maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
   });
 
-  res.cookie("accessToken", accessToken, {
-    httpOnly: true,
-    secure: process.env.NODE_ENV === "production",
-    sameSite: "Strict",
-    maxAge: 15 * 60 * 1000, // 15 minutes
-  });
+  if (accessToken) {
+    res.cookie("accessToken", accessToken, {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === "production",
+      sameSite: "Strict",
+      maxAge: 15 * 60 * 1000, // 15 minutes
+    });
+  }
 };
+
 
 const registerUser = async (req, res) => {
   try {
