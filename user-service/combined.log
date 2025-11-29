@@ -505,3 +505,18 @@
 {"level":"info","message":"Request body: {\"email\":\"gauravwaghmare2@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-29T12:15:53.592Z"}
 {"level":"info","message":"Login endpoint hit","service":"user-service","timestamp":"2025-11-29T12:15:53.595Z"}
 {"level":"info","message":"User logged in successfully: 6927431401357ddb3d0920d9","service":"user-service","timestamp":"2025-11-29T12:15:53.828Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T15:20:22.793Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T15:20:24.585Z"}
+{"level":"info","message":"Recieved GET request to /api/auth/refresh","service":"user-service","timestamp":"2025-11-29T15:21:01.241Z"}
+{"level":"info","message":"Request body: {}","service":"user-service","timestamp":"2025-11-29T15:21:01.242Z"}
+{"level":"info","message":"Refresh token endpoint hit","service":"user-service","timestamp":"2025-11-29T15:21:01.247Z"}
+{"level":"info","message":"Recieved GET request to /api/auth/refresh","service":"user-service","timestamp":"2025-11-29T16:15:32.401Z"}
+{"level":"info","message":"Request body: {}","service":"user-service","timestamp":"2025-11-29T16:15:32.407Z"}
+{"level":"info","message":"Refresh token endpoint hit","service":"user-service","timestamp":"2025-11-29T16:15:32.412Z"}
+{"level":"warn","message":"Refresh token not found in database","service":"user-service","timestamp":"2025-11-29T16:15:32.692Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"user-service","timestamp":"2025-11-29T16:16:16.080Z"}
+{"level":"info","message":"Request body: {\"email\":\"gauravwaghmare2@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-29T16:16:16.081Z"}
+{"level":"info","message":"Login endpoint hit","service":"user-service","timestamp":"2025-11-29T16:16:16.083Z"}
+{"level":"info","message":"User logged in successfully: 6927431401357ddb3d0920d9","service":"user-service","timestamp":"2025-11-29T16:16:16.694Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T16:19:21.917Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T16:19:22.832Z"}

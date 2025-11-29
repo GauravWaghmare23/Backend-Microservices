@@ -48,7 +48,7 @@ app.use(async (req, res, next) => {
     next();
   } catch (error) {
     logger.warn(`Rate limit far exceeded for IP: ${req.ip}`);
-    res.status(429).json({ success: false, message: "Too many request" });
+    res.status(429).json({ success: false, message: "Too many request, please try again later after 1 hour" });
   }
 });
 

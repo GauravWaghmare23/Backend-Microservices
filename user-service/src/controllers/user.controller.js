@@ -136,20 +136,26 @@ const loginUser = async (req, res) => {
 const UserRefreshToken = async (req, res) => {
   logger.info("Refresh token endpoint hit");
   try {
-    const refreshToken = req.cookies.refreshToken; 
+    const refreshToken = req.cookies.refreshToken;
 
     if (!refreshToken) {
-      logger.warn("Refresh token not found");
+      logger.warn("Refresh token not found in cookie");
       return res.status(401).json({ success: false, message: "Unauthorized" });
     }
 
     const storedRefreshToken = await refreshTokenModel.findOne({
       token: refreshToken,
     });
-
     if (!storedRefreshToken) {
       logger.warn("Refresh token not found in database");
       return res.status(401).json({ success: false, message: "Unauthorized" });
+    }
+
+    // Check if token expired
+    if (storedRefreshToken.expiresAt < new Date()) {
+      logger.warn("Refresh token expired");
+      await refreshTokenModel.deleteOne({ _id: storedRefreshToken._id });
+      return res.status(401).json({ success: false, message: "Token expired" });
     }
 
     const user = await userModel.findById(storedRefreshToken.user);
@@ -158,16 +164,21 @@ const UserRefreshToken = async (req, res) => {
       return res.status(401).json({ success: false, message: "Unauthorized" });
     }
 
-    const accessToken = generateAccessToken(user);
-    const RefreshToken = await generateRefreshToken(user);
+    // Generate NEW tokens
+    const newAccessToken = generateAccessToken(user);
+    const newRefreshToken = await generateRefreshToken(user); // This creates & stores new token
 
+    // Delete OLD token
     await refreshTokenModel.deleteOne({ _id: storedRefreshToken._id });
-    setRefreshTokenCookie(res, refreshToken,accessToken);
 
+    // Set NEW refresh token in cookie (fixed!)
+    setRefreshTokenCookie(res, newRefreshToken, newAccessToken);
+
+    logger.info(`Tokens refreshed for user: ${user._id}`);
     return res.status(200).json({
       success: true,
-      message: "Refresh token created successfully.",
-      accessToken,
+      message: "Tokens refreshed successfully",
+      accessToken: newAccessToken,
       user: { _id: user._id, username: user.username, email: user.email },
     });
   } catch (error) {
@@ -179,6 +190,7 @@ const UserRefreshToken = async (req, res) => {
     return res.status(500).json({ success: false, message });
   }
 };
+
 
 
 const userLogout = async (req, res) => {

@@ -2,7 +2,7 @@ const PostModel = require("../models/post.model.js");
 const logger = require("../utils/logger.js");
 
 
-async function invalidatePostsCache(req) {
+async function invalidatePostsCache(req,input) {
     const keys = await req.redisClient.keys("posts:*");
     if (keys.length > 0) {
         await req.redisClient.del(keys);
@@ -24,7 +24,7 @@ const createPost = async (req, res) => {
         await newPost.save()
 
         logger.info("Post created successfully");
-        invalidatePostsCache(req);
+        invalidatePostsCache(req,newPost._id.toString());
         return res.status(201).json({ message: "Post created successfully", post: newPost });
 
     } catch (error) {
