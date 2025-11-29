@@ -347,3 +347,128 @@
 {"level":"info","message":"Recieved DELETE request to /api/auth/logout","service":"user-service","timestamp":"2025-11-28T15:25:32.656Z"}
 {"level":"info","message":"Request body: {}","service":"user-service","timestamp":"2025-11-28T15:25:32.659Z"}
 {"level":"info","message":"Logout endpoint hit","service":"user-service","timestamp":"2025-11-28T15:25:32.664Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:29:01.493Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:29:02.757Z"}
+{"level":"info","message":"Recieved GET request to /api/auth/login","service":"user-service","timestamp":"2025-11-29T09:29:12.296Z"}
+{"level":"info","message":"Request body: {\"email\":\"gauravwaghmare2@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-29T09:29:12.298Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"user-service","timestamp":"2025-11-29T09:29:27.697Z"}
+{"level":"info","message":"Request body: {\"email\":\"gauravwaghmare2@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-29T09:29:27.698Z"}
+{"level":"info","message":"Login endpoint hit","service":"user-service","timestamp":"2025-11-29T09:29:27.701Z"}
+{"level":"info","message":"User logged in successfully: 6927431401357ddb3d0920d9","service":"user-service","timestamp":"2025-11-29T09:29:28.122Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:45:37.528Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:45:38.682Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:45:40.875Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:45:41.511Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:45:43.879Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:45:44.490Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:45:52.844Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:45:53.953Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:45:54.563Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:46:01.623Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:46:02.130Z"}
+{"level":"info","message":"Recieved DELETE request to /api/auth/logout","service":"user-service","timestamp":"2025-11-29T09:46:47.266Z"}
+{"level":"info","message":"Request body: {}","service":"user-service","timestamp":"2025-11-29T09:46:47.267Z"}
+{"level":"info","message":"Logout endpoint hit","service":"user-service","timestamp":"2025-11-29T09:46:47.272Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"user-service","timestamp":"2025-11-29T09:46:52.582Z"}
+{"level":"info","message":"Request body: {\"email\":\"gauravwaghmare2@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-29T09:46:52.596Z"}
+{"level":"info","message":"Login endpoint hit","service":"user-service","timestamp":"2025-11-29T09:46:52.599Z"}
+{"level":"error","message":"Login error: token is not defined","service":"user-service","timestamp":"2025-11-29T09:46:53.013Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:48:47.211Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:48:48.336Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:48:51.366Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:48:51.974Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:48:53.511Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:48:54.135Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"user-service","timestamp":"2025-11-29T09:48:56.718Z"}
+{"level":"info","message":"Request body: {\"email\":\"gauravwaghmare2@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-29T09:48:56.719Z"}
+{"level":"info","message":"Login endpoint hit","service":"user-service","timestamp":"2025-11-29T09:48:56.724Z"}
+{"level":"info","message":"User logged in successfully: 6927431401357ddb3d0920d9","service":"user-service","timestamp":"2025-11-29T09:48:56.997Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:51:15.374Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:51:16.074Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:51:19.163Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:51:19.799Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:51:20.677Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:51:21.317Z"}
+{"level":"info","message":"Recieved DELETE request to /api/auth/logout","service":"user-service","timestamp":"2025-11-29T09:51:24.748Z"}
+{"level":"info","message":"Request body: {}","service":"user-service","timestamp":"2025-11-29T09:51:24.750Z"}
+{"level":"info","message":"Logout endpoint hit","service":"user-service","timestamp":"2025-11-29T09:51:24.757Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"user-service","timestamp":"2025-11-29T09:51:28.967Z"}
+{"level":"info","message":"Request body: {\"email\":\"gauravwaghmare2@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-29T09:51:28.973Z"}
+{"level":"info","message":"Login endpoint hit","service":"user-service","timestamp":"2025-11-29T09:51:28.977Z"}
+{"level":"info","message":"User logged in successfully: 6927431401357ddb3d0920d9","service":"user-service","timestamp":"2025-11-29T09:51:29.220Z"}
+{"level":"info","message":"Recieved DELETE request to /api/auth/logout","service":"user-service","timestamp":"2025-11-29T09:51:45.472Z"}
+{"level":"info","message":"Request body: {}","service":"user-service","timestamp":"2025-11-29T09:51:45.479Z"}
+{"level":"info","message":"Logout endpoint hit","service":"user-service","timestamp":"2025-11-29T09:51:45.481Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:51:54.573Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:51:55.223Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:51:58.137Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:51:58.808Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:51:59.986Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:52:01.517Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"user-service","timestamp":"2025-11-29T09:52:07.360Z"}
+{"level":"info","message":"Request body: {\"email\":\"gauravwaghmare2@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-29T09:52:07.361Z"}
+{"level":"info","message":"Login endpoint hit","service":"user-service","timestamp":"2025-11-29T09:52:07.377Z"}
+{"level":"info","message":"User logged in successfully: 6927431401357ddb3d0920d9","service":"user-service","timestamp":"2025-11-29T09:52:07.621Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:53:07.705Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:53:08.334Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:53:13.074Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:53:13.709Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:53:14.513Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:53:15.278Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:53:20.804Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:53:21.476Z"}
+{"level":"info","message":"Recieved DELETE request to /api/auth/logout","service":"user-service","timestamp":"2025-11-29T09:54:25.318Z"}
+{"level":"info","message":"Request body: {}","service":"user-service","timestamp":"2025-11-29T09:54:25.320Z"}
+{"level":"info","message":"Logout endpoint hit","service":"user-service","timestamp":"2025-11-29T09:54:25.325Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:55:01.077Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:55:02.453Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:55:03.520Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:55:04.271Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:55:12.116Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:55:12.737Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:55:14.215Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:55:15.374Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:55:16.619Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"user-service","timestamp":"2025-11-29T09:55:21.650Z"}
+{"level":"info","message":"Request body: {\"email\":\"gauravwaghmare2@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-29T09:55:21.652Z"}
+{"level":"info","message":"Login endpoint hit","service":"user-service","timestamp":"2025-11-29T09:55:21.658Z"}
+{"level":"info","message":"User logged in successfully: 6927431401357ddb3d0920d9","service":"user-service","timestamp":"2025-11-29T09:55:21.941Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:57:17.184Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:57:18.407Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:57:23.276Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:57:23.922Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:57:25.838Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:57:26.606Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:57:29.378Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:57:29.910Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:57:33.612Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:57:34.288Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T09:57:36.592Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T09:57:37.401Z"}
+{"level":"info","message":"Recieved DELETE request to /api/auth/logout","service":"user-service","timestamp":"2025-11-29T09:57:41.105Z"}
+{"level":"info","message":"Request body: {}","service":"user-service","timestamp":"2025-11-29T09:57:41.110Z"}
+{"level":"info","message":"Logout endpoint hit","service":"user-service","timestamp":"2025-11-29T09:57:41.115Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"user-service","timestamp":"2025-11-29T09:57:46.732Z"}
+{"level":"info","message":"Request body: {\"email\":\"gauravwaghmare2@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-29T09:57:46.732Z"}
+{"level":"info","message":"Login endpoint hit","service":"user-service","timestamp":"2025-11-29T09:57:46.733Z"}
+{"level":"info","message":"User logged in successfully: 6927431401357ddb3d0920d9","service":"user-service","timestamp":"2025-11-29T09:57:47.089Z"}
+{"level":"info","message":"Recieved GET request to /api/auth/refresh","service":"user-service","timestamp":"2025-11-29T10:01:22.445Z"}
+{"level":"info","message":"Request body: {}","service":"user-service","timestamp":"2025-11-29T10:01:22.449Z"}
+{"level":"info","message":"Refresh token endpoint hit","service":"user-service","timestamp":"2025-11-29T10:01:22.451Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T10:02:25.967Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T10:02:27.165Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T10:02:32.368Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T10:02:33.639Z"}
+{"level":"info","message":"Recieved GET request to /api/auth/refresh","service":"user-service","timestamp":"2025-11-29T10:02:39.864Z"}
+{"level":"info","message":"Request body: {}","service":"user-service","timestamp":"2025-11-29T10:02:39.869Z"}
+{"level":"info","message":"Refresh token endpoint hit","service":"user-service","timestamp":"2025-11-29T10:02:39.875Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T10:09:41.448Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T10:09:42.233Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T10:09:43.531Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T10:09:44.110Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T10:09:45.164Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T10:09:46.122Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T10:09:46.966Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T10:09:47.781Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-29T10:09:58.421Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-29T10:09:59.429Z"}

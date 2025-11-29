@@ -86,3 +86,89 @@
 {"level":"info","message":"Recieved DELETE request to /v1/auth/logout","service":"api-gateway","timestamp":"2025-11-28T15:25:32.648Z"}
 {"level":"info","message":"Request body: undefined","service":"api-gateway","timestamp":"2025-11-28T15:25:32.648Z"}
 {"level":"info","message":"Response received from user service: {\"type\":\"Buffer\",\"data\":[123,34,115,117,99,99,101,115,115,34,58,116,114,117,101,44,34,109,101,115,115,97,103,101,34,58,34,76,111,103,111,117,116,32,115,117,99,99,101,115,115,102,117,108,46,34,125]}","service":"api-gateway","timestamp":"2025-11-28T15:25:32.999Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-29T09:28:49.495Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T09:28:49.498Z"}
+{"level":"info","message":"Received GET /v1/auth/login","service":"api-gateway","timestamp":"2025-11-29T09:29:12.247Z"}
+{"level":"info","message":"Body: {\"email\":\"gauravwaghmare2@gmail.com\",\"password\":\"123456789\"}","service":"api-gateway","timestamp":"2025-11-29T09:29:12.249Z"}
+{"level":"info","message":"Received POST /v1/auth/login","service":"api-gateway","timestamp":"2025-11-29T09:29:27.688Z"}
+{"level":"info","message":"Body: {\"email\":\"gauravwaghmare2@gmail.com\",\"password\":\"123456789\"}","service":"api-gateway","timestamp":"2025-11-29T09:29:27.691Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-29T09:32:22.032Z"}
+{"level":"info","message":"Body: {\"title\":\"post 1\",\"content\":\"post 1 content\",\"mediaUrls\":\"post1url\"}","service":"api-gateway","timestamp":"2025-11-29T09:32:22.032Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T09:32:22.034Z"}
+{"level":"warn","message":"Invalid token: jwt malformed","service":"api-gateway","timestamp":"2025-11-29T09:32:22.035Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-29T09:33:38.639Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T09:33:38.641Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-29T09:33:41.659Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T09:33:41.661Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-29T09:33:44.464Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T09:33:44.467Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-29T09:33:46.321Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T09:33:46.323Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-29T09:33:54.532Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T09:33:54.535Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-29T09:34:04.828Z"}
+{"level":"info","message":"Body: {\"title\":\"post 1\",\"content\":\"post 1 content\",\"mediaUrls\":\"post1url\"}","service":"api-gateway","timestamp":"2025-11-29T09:34:04.830Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T09:34:04.836Z"}
+{"level":"error","message":"Token validation error: undefined","service":"api-gateway","timestamp":"2025-11-29T09:34:04.838Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-29T09:35:21.822Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T09:35:21.824Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-29T09:35:25.898Z"}
+{"level":"info","message":"Body: {\"title\":\"post 1\",\"content\":\"post 1 content\",\"mediaUrls\":\"post1url\"}","service":"api-gateway","timestamp":"2025-11-29T09:35:25.900Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T09:35:25.906Z"}
+{"level":"error","message":"Token validation error: undefined","service":"api-gateway","timestamp":"2025-11-29T09:35:25.915Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-29T09:35:38.244Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T09:35:38.247Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-29T09:35:42.057Z"}
+{"level":"info","message":"Body: {\"title\":\"post 1\",\"content\":\"post 1 content\",\"mediaUrls\":\"post1url\"}","service":"api-gateway","timestamp":"2025-11-29T09:35:42.059Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T09:35:42.066Z"}
+{"level":"error","message":"Token validation error: undefined","service":"api-gateway","timestamp":"2025-11-29T09:35:42.070Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-29T09:35:55.934Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T09:35:55.936Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-29T09:35:59.875Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T09:35:59.878Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-29T09:36:09.157Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T09:36:09.160Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-29T09:36:14.152Z"}
+{"level":"info","message":"Body: {\"title\":\"post 1\",\"content\":\"post 1 content\",\"mediaUrls\":\"post1url\"}","service":"api-gateway","timestamp":"2025-11-29T09:36:14.153Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T09:36:14.158Z"}
+{"level":"error","message":"Token validation error: undefined","service":"api-gateway","timestamp":"2025-11-29T09:36:14.159Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-29T09:37:25.030Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T09:37:25.032Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-29T09:37:30.389Z"}
+{"level":"info","message":"Body: {\"title\":\"post 1\",\"content\":\"post 1 content\",\"mediaUrls\":\"post1url\"}","service":"api-gateway","timestamp":"2025-11-29T09:37:30.393Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T09:37:30.399Z"}
+{"level":"error","message":"Token validation error: undefined","service":"api-gateway","timestamp":"2025-11-29T09:37:30.406Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-29T09:37:45.172Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T09:37:45.176Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-29T09:37:46.439Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T09:37:46.442Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-29T09:37:48.398Z"}
+{"level":"info","message":"Body: {\"title\":\"post 1\",\"content\":\"post 1 content\",\"mediaUrls\":\"post1url\"}","service":"api-gateway","timestamp":"2025-11-29T09:37:48.400Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T09:37:48.408Z"}
+{"level":"warn","message":"No token provided","service":"api-gateway","timestamp":"2025-11-29T09:37:48.417Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-29T09:37:57.185Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T09:37:57.188Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-29T09:38:00.435Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T09:38:00.437Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-29T09:38:02.381Z"}
+{"level":"info","message":"Body: {\"title\":\"post 1\",\"content\":\"post 1 content\",\"mediaUrls\":\"post1url\"}","service":"api-gateway","timestamp":"2025-11-29T09:38:02.383Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T09:38:02.390Z"}
+{"level":"error","message":"Token validation error: undefined","service":"api-gateway","timestamp":"2025-11-29T09:38:02.404Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-29T09:38:47.276Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T09:38:47.278Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-29T09:38:48.776Z"}
+{"level":"info","message":"Body: {\"title\":\"post 1\",\"content\":\"post 1 content\",\"mediaUrls\":\"post1url\"}","service":"api-gateway","timestamp":"2025-11-29T09:38:48.778Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T09:38:48.785Z"}
+{"level":"warn","message":"No token provided","service":"api-gateway","timestamp":"2025-11-29T09:38:48.788Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-29T09:38:53.988Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T09:38:53.993Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-29T09:38:59.024Z"}
+{"level":"info","message":"Body: {\"title\":\"post 1\",\"content\":\"post 1 content\",\"mediaUrls\":\"post1url\"}","service":"api-gateway","timestamp":"2025-11-29T09:38:59.026Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T09:38:59.031Z"}
+{"level":"error","message":"Token validation error: undefined","service":"api-gateway","timestamp":"2025-11-29T09:38:59.032Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-29T09:39:40.564Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T09:39:40.567Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-29T09:45:02.115Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T09:45:02.117Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-29T09:45:07.510Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T09:45:07.513Z"}

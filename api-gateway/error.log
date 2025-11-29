@@ -1,1 +1,8 @@
 {"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-11-26T18:14:37.918Z"}
+{"level":"error","message":"Token validation error: undefined","service":"api-gateway","timestamp":"2025-11-29T09:34:04.838Z"}
+{"level":"error","message":"Token validation error: undefined","service":"api-gateway","timestamp":"2025-11-29T09:35:25.915Z"}
+{"level":"error","message":"Token validation error: undefined","service":"api-gateway","timestamp":"2025-11-29T09:35:42.070Z"}
+{"level":"error","message":"Token validation error: undefined","service":"api-gateway","timestamp":"2025-11-29T09:36:14.159Z"}
+{"level":"error","message":"Token validation error: undefined","service":"api-gateway","timestamp":"2025-11-29T09:37:30.406Z"}
+{"level":"error","message":"Token validation error: undefined","service":"api-gateway","timestamp":"2025-11-29T09:38:02.404Z"}
+{"level":"error","message":"Token validation error: undefined","service":"api-gateway","timestamp":"2025-11-29T09:38:59.032Z"}

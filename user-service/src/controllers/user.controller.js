@@ -10,15 +10,22 @@ const {
   validateLogin,
 } = require("../utils/validation.js");
 
-const setRefreshTokenCookie = (res, token) => {
-  res.cookie("refreshToken", token, {
+const setRefreshTokenCookie = (res, refreshToken, accessToken) => {
+
+  res.cookie("refreshToken", refreshToken, {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
     sameSite: "Strict",
-    maxAge: 7 * 24 * 60 * 60 * 1000,
+    maxAge: 7 * 24 * 60 * 60 * 1000, 
+  });
+
+  res.cookie("accessToken", accessToken, {
+    httpOnly: true,
+    secure: process.env.NODE_ENV === "production",
+    sameSite: "Strict",
+    maxAge: 15 * 60 * 1000, // 15 minutes
   });
 };
-
 
 const registerUser = async (req, res) => {
   try {
@@ -50,7 +57,7 @@ const registerUser = async (req, res) => {
     const accessToken = generateAccessToken(user);
     const refreshToken = await generateRefreshToken(user);
 
-    setRefreshTokenCookie(res, refreshToken);
+    setRefreshTokenCookie(res, refreshToken,accessToken);
 
     logger.info(`User registered successfully: ${user._id}`);
     return res.status(201).json({
@@ -106,7 +113,7 @@ const loginUser = async (req, res) => {
     const accessToken = generateAccessToken(user);
     const refreshToken = await generateRefreshToken(user);
 
-    setRefreshTokenCookie(res, refreshToken);
+    setRefreshTokenCookie(res, refreshToken,accessToken);
 
     logger.info(`User logged in successfully: ${user._id}`);
     return res.status(200).json({
@@ -152,10 +159,10 @@ const UserRefreshToken = async (req, res) => {
     }
 
     const accessToken = generateAccessToken(user);
-    const newRefreshToken = await generateRefreshToken(user);
+    const RefreshToken = await generateRefreshToken(user);
 
     await refreshTokenModel.deleteOne({ _id: storedRefreshToken._id });
-    setRefreshTokenCookie(res, newRefreshToken);
+    setRefreshTokenCookie(res, refreshToken,accessToken);
 
     return res.status(200).json({
       success: true,
