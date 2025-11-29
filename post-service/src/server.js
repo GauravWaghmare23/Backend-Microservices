@@ -68,7 +68,12 @@ const sensitiveEndpointLimiter = rateLimit({
 
 
 // applying the sensitive endpoint to the specific routes
-app.use('/api/posts/create',sensitiveEndpointLimiter);
+app.use('/api/posts/create', sensitiveEndpointLimiter);
+app.use("/api/posts/:id", sensitiveEndpointLimiter);
+app.use("/api/posts/:id", sensitiveEndpointLimiter);
+app.use("/api/posts/likes/:id", sensitiveEndpointLimiter);
+app.use("/api/posts/comments/:id", sensitiveEndpointLimiter);
+app.use("/api/posts/:id/comments/:commentId", sensitiveEndpointLimiter);
 
 // routes
 
