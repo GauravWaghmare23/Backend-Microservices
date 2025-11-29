@@ -223,3 +223,74 @@
 {"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-29T10:53:34.453Z"}
 {"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T10:53:34.456Z"}
 {"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-29T10:53:34.456Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-29T11:51:46.746Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-29T11:51:46.749Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-29T11:51:46.750Z"}
+{"level":"info","message":"Received GET /v1/auth/refresh","service":"api-gateway","timestamp":"2025-11-29T11:52:02.887Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-29T11:52:02.889Z"}
+{"level":"info","message":"Received GET /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-11-29T11:52:56.846Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-29T11:52:56.847Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T11:52:56.848Z"}
+{"level":"info","message":"User authenticated: 6927431401357ddb3d0920d9","service":"api-gateway","timestamp":"2025-11-29T11:52:56.853Z"}
+{"level":"info","message":"Received GET /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-11-29T12:02:53.331Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-29T12:02:53.332Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T12:02:53.334Z"}
+{"level":"info","message":"User authenticated: 6927431401357ddb3d0920d9","service":"api-gateway","timestamp":"2025-11-29T12:02:53.336Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-29T12:03:13.549Z"}
+{"level":"info","message":"Body: {\"title\":\"post 4\",\"content\":\"post 4 content\",\"mediaUrls\":\"post4url\"}","service":"api-gateway","timestamp":"2025-11-29T12:03:13.550Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T12:03:13.552Z"}
+{"level":"info","message":"User authenticated: 6927431401357ddb3d0920d9","service":"api-gateway","timestamp":"2025-11-29T12:03:13.553Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-29T12:03:38.877Z"}
+{"level":"info","message":"Body: {\"title\":\"post 5\",\"content\":\"post 5 content\",\"mediaUrls\":\"post5url\"}","service":"api-gateway","timestamp":"2025-11-29T12:03:38.877Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T12:03:38.879Z"}
+{"level":"info","message":"User authenticated: 6927431401357ddb3d0920d9","service":"api-gateway","timestamp":"2025-11-29T12:03:38.880Z"}
+{"level":"info","message":"Received GET /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-11-29T12:03:44.059Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-29T12:03:44.060Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T12:03:44.061Z"}
+{"level":"info","message":"User authenticated: 6927431401357ddb3d0920d9","service":"api-gateway","timestamp":"2025-11-29T12:03:44.061Z"}
+{"level":"info","message":"Received GET /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-11-29T12:03:50.318Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-29T12:03:50.319Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T12:03:50.319Z"}
+{"level":"info","message":"User authenticated: 6927431401357ddb3d0920d9","service":"api-gateway","timestamp":"2025-11-29T12:03:50.320Z"}
+{"level":"info","message":"Received GET /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-11-29T12:05:41.479Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-29T12:05:41.479Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T12:05:41.480Z"}
+{"level":"info","message":"User authenticated: 6927431401357ddb3d0920d9","service":"api-gateway","timestamp":"2025-11-29T12:05:41.481Z"}
+{"level":"info","message":"Received GET /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-11-29T12:06:18.799Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-29T12:06:18.800Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T12:06:18.802Z"}
+{"level":"info","message":"User authenticated: 6927431401357ddb3d0920d9","service":"api-gateway","timestamp":"2025-11-29T12:06:18.804Z"}
+{"level":"info","message":"Received GET /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-11-29T12:06:22.834Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-29T12:06:22.835Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T12:06:22.836Z"}
+{"level":"info","message":"User authenticated: 6927431401357ddb3d0920d9","service":"api-gateway","timestamp":"2025-11-29T12:06:22.837Z"}
+{"level":"info","message":"Received GET /v1/auth/refresh","service":"api-gateway","timestamp":"2025-11-29T12:12:08.702Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-29T12:12:08.704Z"}
+{"level":"info","message":"Received GET /v1/auth/refresh","service":"api-gateway","timestamp":"2025-11-29T12:13:26.653Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-29T12:13:26.654Z"}
+{"level":"info","message":"Received POST /v1/auth/login","service":"api-gateway","timestamp":"2025-11-29T12:15:53.584Z"}
+{"level":"info","message":"Body: {\"email\":\"gauravwaghmare2@gmail.com\",\"password\":\"123456789\"}","service":"api-gateway","timestamp":"2025-11-29T12:15:53.585Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-29T12:17:03.452Z"}
+{"level":"info","message":"Body: {\"title\":\"post 6\",\"content\":\"post 6 content\",\"mediaUrls\":\"post5url\"}","service":"api-gateway","timestamp":"2025-11-29T12:17:03.453Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T12:17:03.454Z"}
+{"level":"info","message":"User authenticated: 6927431401357ddb3d0920d9","service":"api-gateway","timestamp":"2025-11-29T12:17:03.455Z"}
+{"level":"info","message":"Received GET /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-11-29T12:17:07.669Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-29T12:17:07.669Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T12:17:07.670Z"}
+{"level":"info","message":"User authenticated: 6927431401357ddb3d0920d9","service":"api-gateway","timestamp":"2025-11-29T12:17:07.671Z"}
+{"level":"info","message":"Received GET /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-11-29T12:17:13.104Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-29T12:17:13.104Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T12:17:13.105Z"}
+{"level":"info","message":"User authenticated: 6927431401357ddb3d0920d9","service":"api-gateway","timestamp":"2025-11-29T12:17:13.105Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-29T12:23:01.318Z"}
+{"level":"info","message":"Body: {\"title\":\"post 7\",\"content\":\"post 7 content\",\"mediaUrls\":\"post7url\"}","service":"api-gateway","timestamp":"2025-11-29T12:23:01.319Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T12:23:01.320Z"}
+{"level":"info","message":"User authenticated: 6927431401357ddb3d0920d9","service":"api-gateway","timestamp":"2025-11-29T12:23:01.321Z"}
+{"level":"info","message":"Received GET /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-11-29T12:25:02.148Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-29T12:25:02.149Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T12:25:02.151Z"}
+{"level":"info","message":"User authenticated: 6927431401357ddb3d0920d9","service":"api-gateway","timestamp":"2025-11-29T12:25:02.151Z"}
+{"level":"info","message":"Received GET /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-11-29T12:25:03.699Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-29T12:25:03.699Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T12:25:03.700Z"}
+{"level":"info","message":"User authenticated: 6927431401357ddb3d0920d9","service":"api-gateway","timestamp":"2025-11-29T12:25:03.701Z"}

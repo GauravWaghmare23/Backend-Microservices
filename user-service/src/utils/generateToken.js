@@ -18,7 +18,7 @@ const generateAccessToken = (user) => {
 const generateRefreshToken = async (user) => {
   const token = crypto.randomBytes(64).toString("hex");
   const expiresAt = new Date();
-  expiresAt.setDate(expiresAt.getDate() + 7);
+  expiresAt.setDate(expiresAt.getDate() + 7); // 7 days
 
   await refreshTokenModel.create({
     token: token,
