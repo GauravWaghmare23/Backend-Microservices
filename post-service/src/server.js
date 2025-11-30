@@ -91,6 +91,6 @@ app.listen(PORT, () => {
 });
 
 
-process.on("unhandledRejection", (reason,promise) => { // for unhandled promise rejections
+process.on("unhandledRejection", (reason,promise) => { 
     logger.error("Unhandled rejection at promise", promise, "reason : ", { reason });
 });
