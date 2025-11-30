@@ -696,3 +696,110 @@
 {"level":"info","message":"get all posts endpoint hit","service":"post-service","timestamp":"2025-11-29T17:53:28.830Z"}
 {"level":"info","message":"Fetching posts from cacheKey : posts:1 :10","service":"post-service","timestamp":"2025-11-29T17:53:28.831Z"}
 {"level":"info","message":"Posts fetched successfully","service":"post-service","timestamp":"2025-11-29T17:53:29.006Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-11-30T07:51:05.982Z"}
+{"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-11-30T07:51:06.509Z"}
+{"level":"info","message":"Incoming request: POST /api/posts/create","service":"post-service","timestamp":"2025-11-30T07:51:28.110Z"}
+{"level":"info","message":"Request body: {\"title\":\"post 1\",\"content\":\"post 1 content\",\"mediaUrls\":\"post1url\"}","service":"post-service","timestamp":"2025-11-30T07:51:28.111Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T07:51:28.122Z"}
+{"level":"info","message":"create post endpoint hit","service":"post-service","timestamp":"2025-11-30T07:51:28.125Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-11-30T07:51:28.230Z"}
+{"level":"info","message":"Incoming request: POST /api/posts/create","service":"post-service","timestamp":"2025-11-30T07:51:41.271Z"}
+{"level":"info","message":"Request body: {\"title\":\"post 2\",\"content\":\"post 2 content\",\"mediaUrls\":\"post2url\"}","service":"post-service","timestamp":"2025-11-30T07:51:41.273Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T07:51:41.279Z"}
+{"level":"info","message":"create post endpoint hit","service":"post-service","timestamp":"2025-11-30T07:51:41.281Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-11-30T07:51:41.347Z"}
+{"level":"info","message":"Incoming request: POST /api/posts/create","service":"post-service","timestamp":"2025-11-30T07:52:41.063Z"}
+{"level":"info","message":"Request body: {\"title\":\"post 3\",\"content\":\"post 3 content\",\"mediaUrls\":[\"post3url\",\"post3Aurl\"]}","service":"post-service","timestamp":"2025-11-30T07:52:41.066Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T07:52:41.071Z"}
+{"level":"info","message":"create post endpoint hit","service":"post-service","timestamp":"2025-11-30T07:52:41.071Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-11-30T07:52:41.124Z"}
+{"level":"info","message":"Incoming request: POST /api/posts/create","service":"post-service","timestamp":"2025-11-30T07:52:59.709Z"}
+{"level":"info","message":"Request body: {\"title\":\"post 4\",\"content\":\"post 4 content\",\"mediaUrls\":[\"post4url\",\"post4url\"]}","service":"post-service","timestamp":"2025-11-30T07:52:59.709Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T07:52:59.711Z"}
+{"level":"info","message":"create post endpoint hit","service":"post-service","timestamp":"2025-11-30T07:52:59.712Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-11-30T07:52:59.760Z"}
+{"level":"info","message":"Incoming request: POST /api/posts/create","service":"post-service","timestamp":"2025-11-30T07:54:06.414Z"}
+{"level":"info","message":"Request body: {\"title\":\"post 5\",\"content\":\"post 5 content\",\"mediaUrls\":[\"post5url\",\"post5url\"]}","service":"post-service","timestamp":"2025-11-30T07:54:06.415Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T07:54:06.418Z"}
+{"level":"info","message":"create post endpoint hit","service":"post-service","timestamp":"2025-11-30T07:54:06.419Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-11-30T07:54:06.468Z"}
+{"level":"info","message":"Incoming request: POST /api/posts/create","service":"post-service","timestamp":"2025-11-30T07:54:18.618Z"}
+{"level":"info","message":"Request body: {\"title\":\"post 6\",\"content\":\"post 6 content\",\"mediaUrls\":[\"post6url\",\"post6url\"]}","service":"post-service","timestamp":"2025-11-30T07:54:18.618Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T07:54:18.622Z"}
+{"level":"info","message":"create post endpoint hit","service":"post-service","timestamp":"2025-11-30T07:54:18.622Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-11-30T07:54:18.659Z"}
+{"level":"info","message":"Incoming request: POST /api/posts/create","service":"post-service","timestamp":"2025-11-30T07:54:32.459Z"}
+{"level":"info","message":"Request body: {\"title\":\"post 7\",\"content\":\"post 7 content\",\"mediaUrls\":[\"post7url\",\"post7url\"]}","service":"post-service","timestamp":"2025-11-30T07:54:32.463Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T07:54:32.466Z"}
+{"level":"info","message":"create post endpoint hit","service":"post-service","timestamp":"2025-11-30T07:54:32.470Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-11-30T07:54:32.520Z"}
+{"level":"info","message":"Incoming request: POST /api/posts/create","service":"post-service","timestamp":"2025-11-30T07:54:46.987Z"}
+{"level":"info","message":"Request body: {\"title\":\"post 8\",\"content\":\"post 8 content\",\"mediaUrls\":[\"post8url\",\"post8url\"]}","service":"post-service","timestamp":"2025-11-30T07:54:46.988Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T07:54:46.991Z"}
+{"level":"info","message":"create post endpoint hit","service":"post-service","timestamp":"2025-11-30T07:54:46.992Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-11-30T07:54:47.042Z"}
+{"level":"info","message":"Incoming request: POST /api/posts/create","service":"post-service","timestamp":"2025-11-30T07:55:14.989Z"}
+{"level":"info","message":"Request body: {\"title\":\"post 9\",\"content\":\"post 9 content\",\"mediaUrls\":[\"post9url\",\"post9url\"]}","service":"post-service","timestamp":"2025-11-30T07:55:14.993Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T07:55:14.996Z"}
+{"level":"info","message":"create post endpoint hit","service":"post-service","timestamp":"2025-11-30T07:55:14.998Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-11-30T07:55:15.046Z"}
+{"level":"info","message":"Incoming request: POST /api/posts/create","service":"post-service","timestamp":"2025-11-30T07:55:29.836Z"}
+{"level":"info","message":"Request body: {\"title\":\"post 10\",\"content\":\"post 10 content\",\"mediaUrls\":[\"post10url\",\"post10url\"]}","service":"post-service","timestamp":"2025-11-30T07:55:29.839Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T07:55:29.845Z"}
+{"level":"info","message":"create post endpoint hit","service":"post-service","timestamp":"2025-11-30T07:55:29.847Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-11-30T07:55:29.902Z"}
+{"level":"info","message":"Incoming request: GET /api/posts/all-posts","service":"post-service","timestamp":"2025-11-30T07:55:35.720Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-11-30T07:55:35.721Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T07:55:35.727Z"}
+{"level":"info","message":"get all posts endpoint hit","service":"post-service","timestamp":"2025-11-30T07:55:35.728Z"}
+{"level":"info","message":"Fetching posts from cacheKey : posts:1 :10","service":"post-service","timestamp":"2025-11-30T07:55:35.728Z"}
+{"level":"info","message":"Posts fetched successfully","service":"post-service","timestamp":"2025-11-30T07:55:35.854Z"}
+{"level":"info","message":"Incoming request: GET /api/posts/likes/692bf87198b47caeeb3f81e7","service":"post-service","timestamp":"2025-11-30T07:55:53.488Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-11-30T07:55:53.496Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T07:55:53.505Z"}
+{"level":"info","message":"like toggle endpoint hit","service":"post-service","timestamp":"2025-11-30T07:55:53.507Z"}
+{"level":"info","message":"Post liked successfully","service":"post-service","timestamp":"2025-11-30T07:55:53.688Z"}
+{"level":"info","message":"Incoming request: GET /api/posts/likes/692bf86298b47caeeb3f81e5","service":"post-service","timestamp":"2025-11-30T07:56:15.384Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-11-30T07:56:15.385Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T07:56:15.388Z"}
+{"level":"info","message":"like toggle endpoint hit","service":"post-service","timestamp":"2025-11-30T07:56:15.392Z"}
+{"level":"info","message":"Post liked successfully","service":"post-service","timestamp":"2025-11-30T07:56:15.470Z"}
+{"level":"info","message":"Incoming request: GET /api/posts/likes/692bf87198b47caeeb3f81e7","service":"post-service","timestamp":"2025-11-30T07:56:57.195Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-11-30T07:56:57.196Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T07:56:57.198Z"}
+{"level":"info","message":"like toggle endpoint hit","service":"post-service","timestamp":"2025-11-30T07:56:57.198Z"}
+{"level":"info","message":"Post liked successfully","service":"post-service","timestamp":"2025-11-30T07:56:57.273Z"}
+{"level":"info","message":"Incoming request: GET /api/posts/comment/692bf87198b47caeeb3f81e7","service":"post-service","timestamp":"2025-11-30T07:58:32.201Z"}
+{"level":"info","message":"Request body: {\"content\":\"Very good post 1\"}","service":"post-service","timestamp":"2025-11-30T07:58:32.208Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T07:58:32.211Z"}
+{"level":"info","message":"Incoming request: POST /api/posts/comment/692bf87198b47caeeb3f81e7","service":"post-service","timestamp":"2025-11-30T07:59:30.405Z"}
+{"level":"info","message":"Request body: {\"content\":\"Very good post 1\"}","service":"post-service","timestamp":"2025-11-30T07:59:30.405Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T07:59:30.409Z"}
+{"level":"info","message":"comment post endpoint hit","service":"post-service","timestamp":"2025-11-30T07:59:30.410Z"}
+{"level":"info","message":"Post commented successfully","service":"post-service","timestamp":"2025-11-30T07:59:30.601Z"}
+{"level":"info","message":"Incoming request: POST /api/posts/comment/692bf86298b47caeeb3f81e5","service":"post-service","timestamp":"2025-11-30T07:59:56.085Z"}
+{"level":"info","message":"Request body: {\"content\":\"Very nice post 1\"}","service":"post-service","timestamp":"2025-11-30T07:59:56.086Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T07:59:56.089Z"}
+{"level":"info","message":"comment post endpoint hit","service":"post-service","timestamp":"2025-11-30T07:59:56.090Z"}
+{"level":"info","message":"Post commented successfully","service":"post-service","timestamp":"2025-11-30T07:59:56.228Z"}
+{"level":"info","message":"Incoming request: POST /api/posts/comment/692bf86298b47caeeb3f81e5","service":"post-service","timestamp":"2025-11-30T08:00:37.929Z"}
+{"level":"info","message":"Request body: {\"content\":\"Very nice post 2\"}","service":"post-service","timestamp":"2025-11-30T08:00:37.937Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T08:00:37.941Z"}
+{"level":"info","message":"comment post endpoint hit","service":"post-service","timestamp":"2025-11-30T08:00:37.947Z"}
+{"level":"info","message":"Post commented successfully","service":"post-service","timestamp":"2025-11-30T08:00:38.083Z"}
+{"level":"info","message":"Incoming request: GET /api/posts/likes/692bf87198b47caeeb3f81e7","service":"post-service","timestamp":"2025-11-30T08:00:44.002Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-11-30T08:00:44.003Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T08:00:44.005Z"}
+{"level":"info","message":"like toggle endpoint hit","service":"post-service","timestamp":"2025-11-30T08:00:44.006Z"}
+{"level":"info","message":"Post liked successfully","service":"post-service","timestamp":"2025-11-30T08:00:44.115Z"}
+{"level":"info","message":"Incoming request: GET /api/posts/likes/692bf86298b47caeeb3f81e5","service":"post-service","timestamp":"2025-11-30T08:01:07.835Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-11-30T08:01:07.836Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T08:01:07.840Z"}
+{"level":"info","message":"like toggle endpoint hit","service":"post-service","timestamp":"2025-11-30T08:01:07.841Z"}
+{"level":"info","message":"Post liked successfully","service":"post-service","timestamp":"2025-11-30T08:01:07.951Z"}
+{"level":"info","message":"Incoming request: GET /api/posts/all-posts","service":"post-service","timestamp":"2025-11-30T08:01:20.360Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-11-30T08:01:20.362Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T08:01:20.365Z"}
+{"level":"info","message":"get all posts endpoint hit","service":"post-service","timestamp":"2025-11-30T08:01:20.369Z"}
+{"level":"info","message":"Fetching posts from cacheKey : posts:1 :10","service":"post-service","timestamp":"2025-11-30T08:01:20.370Z"}
+{"level":"info","message":"Posts fetched successfully","service":"post-service","timestamp":"2025-11-30T08:01:20.490Z"}

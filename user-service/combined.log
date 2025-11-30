@@ -537,3 +537,48 @@
 {"level":"info","message":"Request body: {}","service":"user-service","timestamp":"2025-11-29T17:39:18.432Z"}
 {"level":"info","message":"Refresh token endpoint hit","service":"user-service","timestamp":"2025-11-29T17:39:18.433Z"}
 {"level":"info","message":"Tokens refreshed for user: 692b2b2380118fdea8c12588","service":"user-service","timestamp":"2025-11-29T17:39:18.770Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-30T07:50:53.814Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-30T07:50:54.449Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"user-service","timestamp":"2025-11-30T07:51:17.953Z"}
+{"level":"info","message":"Request body: {\"username\":\"gauravwaghmare1\",\"email\":\"gauravwaghmare1@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-30T07:51:17.954Z"}
+{"level":"info","message":"Registration endpoint hit","service":"user-service","timestamp":"2025-11-30T07:51:17.964Z"}
+{"level":"info","message":"User registered successfully: 692bf776426b78b1b0a727b1","service":"user-service","timestamp":"2025-11-30T07:51:18.313Z"}
+{"level":"info","message":"Recieved DELETE request to /api/auth/logout","service":"user-service","timestamp":"2025-11-30T07:51:47.231Z"}
+{"level":"info","message":"Request body: {}","service":"user-service","timestamp":"2025-11-30T07:51:47.239Z"}
+{"level":"info","message":"Logout endpoint hit","service":"user-service","timestamp":"2025-11-30T07:51:47.241Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"user-service","timestamp":"2025-11-30T07:51:56.546Z"}
+{"level":"info","message":"Request body: {\"username\":\"gauravwaghmare2\",\"email\":\"gauravwaghmare2@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-30T07:51:56.546Z"}
+{"level":"info","message":"Registration endpoint hit","service":"user-service","timestamp":"2025-11-30T07:51:56.550Z"}
+{"level":"info","message":"User registered successfully: 692bf79c426b78b1b0a727b8","service":"user-service","timestamp":"2025-11-30T07:51:56.776Z"}
+{"level":"info","message":"Recieved DELETE request to /api/auth/logout","service":"user-service","timestamp":"2025-11-30T07:53:04.722Z"}
+{"level":"info","message":"Request body: {}","service":"user-service","timestamp":"2025-11-30T07:53:04.722Z"}
+{"level":"info","message":"Logout endpoint hit","service":"user-service","timestamp":"2025-11-30T07:53:04.723Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"user-service","timestamp":"2025-11-30T07:53:21.376Z"}
+{"level":"info","message":"Request body: {\"username\":\"gauravwaghmare3\",\"email\":\"gauravwaghmare3@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-30T07:53:21.383Z"}
+{"level":"info","message":"Registration endpoint hit","service":"user-service","timestamp":"2025-11-30T07:53:21.386Z"}
+{"level":"info","message":"User registered successfully: 692bf7f1426b78b1b0a727bf","service":"user-service","timestamp":"2025-11-30T07:53:21.659Z"}
+{"level":"info","message":"Recieved DELETE request to /api/auth/logout","service":"user-service","timestamp":"2025-11-30T07:54:52.034Z"}
+{"level":"info","message":"Request body: {}","service":"user-service","timestamp":"2025-11-30T07:54:52.034Z"}
+{"level":"info","message":"Logout endpoint hit","service":"user-service","timestamp":"2025-11-30T07:54:52.036Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"user-service","timestamp":"2025-11-30T07:55:00.098Z"}
+{"level":"info","message":"Request body: {\"username\":\"gauravwaghmare4\",\"email\":\"gauravwaghmare4@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-30T07:55:00.106Z"}
+{"level":"info","message":"Registration endpoint hit","service":"user-service","timestamp":"2025-11-30T07:55:00.109Z"}
+{"level":"info","message":"User registered successfully: 692bf854426b78b1b0a727c6","service":"user-service","timestamp":"2025-11-30T07:55:00.337Z"}
+{"level":"info","message":"Recieved DELETE request to /api/auth/logout","service":"user-service","timestamp":"2025-11-30T07:56:28.084Z"}
+{"level":"info","message":"Request body: {}","service":"user-service","timestamp":"2025-11-30T07:56:28.085Z"}
+{"level":"info","message":"Logout endpoint hit","service":"user-service","timestamp":"2025-11-30T07:56:28.085Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"user-service","timestamp":"2025-11-30T07:56:36.595Z"}
+{"level":"info","message":"Request body: {\"username\":\"gauravwaghmare5\",\"email\":\"gauravwaghmare5@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-30T07:56:36.599Z"}
+{"level":"info","message":"Registration endpoint hit","service":"user-service","timestamp":"2025-11-30T07:56:36.602Z"}
+{"level":"info","message":"User registered successfully: 692bf8b4426b78b1b0a727cd","service":"user-service","timestamp":"2025-11-30T07:56:36.876Z"}
+{"level":"info","message":"Recieved DELETE request to /api/auth/logout","service":"user-service","timestamp":"2025-11-30T08:00:04.568Z"}
+{"level":"info","message":"Request body: {}","service":"user-service","timestamp":"2025-11-30T08:00:04.568Z"}
+{"level":"info","message":"Logout endpoint hit","service":"user-service","timestamp":"2025-11-30T08:00:04.569Z"}
+{"level":"info","message":"Recieved GET request to /api/auth/login","service":"user-service","timestamp":"2025-11-30T08:00:11.339Z"}
+{"level":"info","message":"Request body: {\"email\":\"gauravwaghmare1@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-30T08:00:11.340Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"user-service","timestamp":"2025-11-30T08:00:18.893Z"}
+{"level":"info","message":"Request body: {\"email\":\"gauravwaghmare1@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-30T08:00:18.901Z"}
+{"level":"info","message":"Login endpoint hit","service":"user-service","timestamp":"2025-11-30T08:00:18.903Z"}
+{"level":"info","message":"User logged in successfully: 692bf776426b78b1b0a727b1","service":"user-service","timestamp":"2025-11-30T08:00:19.100Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-30T08:01:53.014Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-30T08:01:53.670Z"}

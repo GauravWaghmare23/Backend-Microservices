@@ -702,3 +702,114 @@
 {"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-29T17:53:28.821Z"}
 {"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-29T17:53:28.824Z"}
 {"level":"info","message":"User authenticated: 692b2b2380118fdea8c12588","service":"api-gateway","timestamp":"2025-11-29T17:53:28.825Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T07:50:58.556Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T07:50:58.558Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T07:50:58.559Z"}
+{"level":"info","message":"Received POST /v1/auth/register","service":"api-gateway","timestamp":"2025-11-30T07:51:17.900Z"}
+{"level":"info","message":"Body: {\"username\":\"gauravwaghmare1\",\"email\":\"gauravwaghmare1@gmail.com\",\"password\":\"123456789\"}","service":"api-gateway","timestamp":"2025-11-30T07:51:17.902Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-30T07:51:28.060Z"}
+{"level":"info","message":"Body: {\"title\":\"post 1\",\"content\":\"post 1 content\",\"mediaUrls\":\"post1url\"}","service":"api-gateway","timestamp":"2025-11-30T07:51:28.062Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T07:51:28.065Z"}
+{"level":"info","message":"User authenticated: 692bf776426b78b1b0a727b1","service":"api-gateway","timestamp":"2025-11-30T07:51:28.069Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-30T07:51:41.252Z"}
+{"level":"info","message":"Body: {\"title\":\"post 2\",\"content\":\"post 2 content\",\"mediaUrls\":\"post2url\"}","service":"api-gateway","timestamp":"2025-11-30T07:51:41.254Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T07:51:41.259Z"}
+{"level":"info","message":"User authenticated: 692bf776426b78b1b0a727b1","service":"api-gateway","timestamp":"2025-11-30T07:51:41.265Z"}
+{"level":"info","message":"Received DELETE /v1/auth/logout","service":"api-gateway","timestamp":"2025-11-30T07:51:47.226Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-30T07:51:47.227Z"}
+{"level":"info","message":"Received POST /v1/auth/register","service":"api-gateway","timestamp":"2025-11-30T07:51:56.538Z"}
+{"level":"info","message":"Body: {\"username\":\"gauravwaghmare2\",\"email\":\"gauravwaghmare2@gmail.com\",\"password\":\"123456789\"}","service":"api-gateway","timestamp":"2025-11-30T07:51:56.540Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-30T07:52:41.046Z"}
+{"level":"info","message":"Body: {\"title\":\"post 3\",\"content\":\"post 3 content\",\"mediaUrls\":[\"post3url\",\"post3Aurl\"]}","service":"api-gateway","timestamp":"2025-11-30T07:52:41.048Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T07:52:41.050Z"}
+{"level":"info","message":"User authenticated: 692bf79c426b78b1b0a727b8","service":"api-gateway","timestamp":"2025-11-30T07:52:41.057Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-30T07:52:59.704Z"}
+{"level":"info","message":"Body: {\"title\":\"post 4\",\"content\":\"post 4 content\",\"mediaUrls\":[\"post4url\",\"post4url\"]}","service":"api-gateway","timestamp":"2025-11-30T07:52:59.705Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T07:52:59.706Z"}
+{"level":"info","message":"User authenticated: 692bf79c426b78b1b0a727b8","service":"api-gateway","timestamp":"2025-11-30T07:52:59.707Z"}
+{"level":"info","message":"Received DELETE /v1/auth/logout","service":"api-gateway","timestamp":"2025-11-30T07:53:04.719Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-30T07:53:04.719Z"}
+{"level":"info","message":"Received POST /v1/auth/register","service":"api-gateway","timestamp":"2025-11-30T07:53:21.368Z"}
+{"level":"info","message":"Body: {\"username\":\"gauravwaghmare3\",\"email\":\"gauravwaghmare3@gmail.com\",\"password\":\"123456789\"}","service":"api-gateway","timestamp":"2025-11-30T07:53:21.371Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-30T07:54:06.398Z"}
+{"level":"info","message":"Body: {\"title\":\"post 5\",\"content\":\"post 5 content\",\"mediaUrls\":[\"post5url\",\"post5url\"]}","service":"api-gateway","timestamp":"2025-11-30T07:54:06.401Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T07:54:06.403Z"}
+{"level":"info","message":"User authenticated: 692bf7f1426b78b1b0a727bf","service":"api-gateway","timestamp":"2025-11-30T07:54:06.404Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-30T07:54:18.609Z"}
+{"level":"info","message":"Body: {\"title\":\"post 6\",\"content\":\"post 6 content\",\"mediaUrls\":[\"post6url\",\"post6url\"]}","service":"api-gateway","timestamp":"2025-11-30T07:54:18.610Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T07:54:18.612Z"}
+{"level":"info","message":"User authenticated: 692bf7f1426b78b1b0a727bf","service":"api-gateway","timestamp":"2025-11-30T07:54:18.613Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-30T07:54:32.451Z"}
+{"level":"info","message":"Body: {\"title\":\"post 7\",\"content\":\"post 7 content\",\"mediaUrls\":[\"post7url\",\"post7url\"]}","service":"api-gateway","timestamp":"2025-11-30T07:54:32.453Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T07:54:32.454Z"}
+{"level":"info","message":"User authenticated: 692bf7f1426b78b1b0a727bf","service":"api-gateway","timestamp":"2025-11-30T07:54:32.455Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-30T07:54:46.979Z"}
+{"level":"info","message":"Body: {\"title\":\"post 8\",\"content\":\"post 8 content\",\"mediaUrls\":[\"post8url\",\"post8url\"]}","service":"api-gateway","timestamp":"2025-11-30T07:54:46.980Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T07:54:46.982Z"}
+{"level":"info","message":"User authenticated: 692bf7f1426b78b1b0a727bf","service":"api-gateway","timestamp":"2025-11-30T07:54:46.983Z"}
+{"level":"info","message":"Received DELETE /v1/auth/logout","service":"api-gateway","timestamp":"2025-11-30T07:54:52.022Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-30T07:54:52.027Z"}
+{"level":"info","message":"Received POST /v1/auth/register","service":"api-gateway","timestamp":"2025-11-30T07:55:00.091Z"}
+{"level":"info","message":"Body: {\"username\":\"gauravwaghmare4\",\"email\":\"gauravwaghmare4@gmail.com\",\"password\":\"123456789\"}","service":"api-gateway","timestamp":"2025-11-30T07:55:00.092Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-30T07:55:14.973Z"}
+{"level":"info","message":"Body: {\"title\":\"post 9\",\"content\":\"post 9 content\",\"mediaUrls\":[\"post9url\",\"post9url\"]}","service":"api-gateway","timestamp":"2025-11-30T07:55:14.977Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T07:55:14.980Z"}
+{"level":"info","message":"User authenticated: 692bf854426b78b1b0a727c6","service":"api-gateway","timestamp":"2025-11-30T07:55:14.982Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-30T07:55:29.828Z"}
+{"level":"info","message":"Body: {\"title\":\"post 10\",\"content\":\"post 10 content\",\"mediaUrls\":[\"post10url\",\"post10url\"]}","service":"api-gateway","timestamp":"2025-11-30T07:55:29.828Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T07:55:29.830Z"}
+{"level":"info","message":"User authenticated: 692bf854426b78b1b0a727c6","service":"api-gateway","timestamp":"2025-11-30T07:55:29.832Z"}
+{"level":"info","message":"Received GET /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-11-30T07:55:35.713Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-30T07:55:35.714Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T07:55:35.715Z"}
+{"level":"info","message":"User authenticated: 692bf854426b78b1b0a727c6","service":"api-gateway","timestamp":"2025-11-30T07:55:35.716Z"}
+{"level":"info","message":"Received GET /v1/posts/likes/692bf87198b47caeeb3f81e7","service":"api-gateway","timestamp":"2025-11-30T07:55:53.478Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-30T07:55:53.481Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T07:55:53.483Z"}
+{"level":"info","message":"User authenticated: 692bf854426b78b1b0a727c6","service":"api-gateway","timestamp":"2025-11-30T07:55:53.484Z"}
+{"level":"info","message":"Received GET /v1/posts/likes/692bf86298b47caeeb3f81e5","service":"api-gateway","timestamp":"2025-11-30T07:56:15.363Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-30T07:56:15.364Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T07:56:15.369Z"}
+{"level":"info","message":"User authenticated: 692bf854426b78b1b0a727c6","service":"api-gateway","timestamp":"2025-11-30T07:56:15.370Z"}
+{"level":"info","message":"Received DELETE /v1/auth/logout","service":"api-gateway","timestamp":"2025-11-30T07:56:28.081Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-30T07:56:28.082Z"}
+{"level":"info","message":"Received POST /v1/auth/register","service":"api-gateway","timestamp":"2025-11-30T07:56:36.587Z"}
+{"level":"info","message":"Body: {\"username\":\"gauravwaghmare5\",\"email\":\"gauravwaghmare5@gmail.com\",\"password\":\"123456789\"}","service":"api-gateway","timestamp":"2025-11-30T07:56:36.591Z"}
+{"level":"info","message":"Received GET /v1/posts/likes/692bf87198b47caeeb3f81e7","service":"api-gateway","timestamp":"2025-11-30T07:56:57.191Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-30T07:56:57.191Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T07:56:57.192Z"}
+{"level":"info","message":"User authenticated: 692bf8b4426b78b1b0a727cd","service":"api-gateway","timestamp":"2025-11-30T07:56:57.193Z"}
+{"level":"info","message":"Received GET /v1/posts/comment/692bf87198b47caeeb3f81e7","service":"api-gateway","timestamp":"2025-11-30T07:58:32.193Z"}
+{"level":"info","message":"Body: {\"content\":\"Very good post 1\"}","service":"api-gateway","timestamp":"2025-11-30T07:58:32.194Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T07:58:32.195Z"}
+{"level":"info","message":"User authenticated: 692bf8b4426b78b1b0a727cd","service":"api-gateway","timestamp":"2025-11-30T07:58:32.197Z"}
+{"level":"info","message":"Received POST /v1/posts/comment/692bf87198b47caeeb3f81e7","service":"api-gateway","timestamp":"2025-11-30T07:59:30.396Z"}
+{"level":"info","message":"Body: {\"content\":\"Very good post 1\"}","service":"api-gateway","timestamp":"2025-11-30T07:59:30.397Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T07:59:30.397Z"}
+{"level":"info","message":"User authenticated: 692bf8b4426b78b1b0a727cd","service":"api-gateway","timestamp":"2025-11-30T07:59:30.398Z"}
+{"level":"info","message":"Received POST /v1/posts/comment/692bf86298b47caeeb3f81e5","service":"api-gateway","timestamp":"2025-11-30T07:59:56.078Z"}
+{"level":"info","message":"Body: {\"content\":\"Very nice post 1\"}","service":"api-gateway","timestamp":"2025-11-30T07:59:56.079Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T07:59:56.080Z"}
+{"level":"info","message":"User authenticated: 692bf8b4426b78b1b0a727cd","service":"api-gateway","timestamp":"2025-11-30T07:59:56.081Z"}
+{"level":"info","message":"Received DELETE /v1/auth/logout","service":"api-gateway","timestamp":"2025-11-30T08:00:04.564Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-30T08:00:04.564Z"}
+{"level":"info","message":"Received GET /v1/auth/login","service":"api-gateway","timestamp":"2025-11-30T08:00:11.335Z"}
+{"level":"info","message":"Body: {\"email\":\"gauravwaghmare1@gmail.com\",\"password\":\"123456789\"}","service":"api-gateway","timestamp":"2025-11-30T08:00:11.336Z"}
+{"level":"info","message":"Received POST /v1/auth/login","service":"api-gateway","timestamp":"2025-11-30T08:00:18.886Z"}
+{"level":"info","message":"Body: {\"email\":\"gauravwaghmare1@gmail.com\",\"password\":\"123456789\"}","service":"api-gateway","timestamp":"2025-11-30T08:00:18.886Z"}
+{"level":"info","message":"Received POST /v1/posts/comment/692bf86298b47caeeb3f81e5","service":"api-gateway","timestamp":"2025-11-30T08:00:37.923Z"}
+{"level":"info","message":"Body: {\"content\":\"Very nice post 2\"}","service":"api-gateway","timestamp":"2025-11-30T08:00:37.923Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T08:00:37.925Z"}
+{"level":"info","message":"User authenticated: 692bf776426b78b1b0a727b1","service":"api-gateway","timestamp":"2025-11-30T08:00:37.926Z"}
+{"level":"info","message":"Received GET /v1/posts/likes/692bf87198b47caeeb3f81e7","service":"api-gateway","timestamp":"2025-11-30T08:00:43.996Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-30T08:00:43.997Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T08:00:43.998Z"}
+{"level":"info","message":"User authenticated: 692bf776426b78b1b0a727b1","service":"api-gateway","timestamp":"2025-11-30T08:00:43.999Z"}
+{"level":"info","message":"Received GET /v1/posts/likes/692bf86298b47caeeb3f81e5","service":"api-gateway","timestamp":"2025-11-30T08:01:07.830Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-30T08:01:07.831Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T08:01:07.832Z"}
+{"level":"info","message":"User authenticated: 692bf776426b78b1b0a727b1","service":"api-gateway","timestamp":"2025-11-30T08:01:07.832Z"}
+{"level":"info","message":"Received GET /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-11-30T08:01:20.343Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-30T08:01:20.349Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T08:01:20.351Z"}
+{"level":"info","message":"User authenticated: 692bf776426b78b1b0a727b1","service":"api-gateway","timestamp":"2025-11-30T08:01:20.355Z"}
