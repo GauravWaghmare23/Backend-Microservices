@@ -153,7 +153,10 @@ const deletePost = async (req, res) => {
         .json({ success: false, message: "Unauthorized to delete this post" });
     }
 
-    const deletedPost = await PostModel.findOneAndDelete({ _id: postId, user: userId });
+    const deletedPost = await PostModel.findOneAndDelete({
+      _id: postId,
+      user: userId,
+    });
     if (!deletedPost) {
       logger.warn("Post not found");
       return res
@@ -173,7 +176,7 @@ const deletePost = async (req, res) => {
       process.env.NODE_ENV === "production"
         ? "Internal Server Error"
         : error.message;
-    res.status(500).json({success: false, message: message });
+    res.status(500).json({ success: false, message: message });
   }
 };
 
@@ -184,7 +187,7 @@ const updatePost = async (req, res) => {
     const userId = req.user._id;
     const { title, content, mediaUrls } = req.body;
 
-    const postData = await PostModel.findOne({ _id: postId, user: userId }); 
+    const postData = await PostModel.findOne({ _id: postId, user: userId });
 
     if (!postData) {
       logger.warn("Post not found or unauthorized");
@@ -192,17 +195,16 @@ const updatePost = async (req, res) => {
         success: false,
         message: "Post not found",
       });
-      }
-      
-      if(postData.user.toString() !== userId) {
-        logger.warn("Unauthorized to update this post");
-        return res.status(401).json({
-          success: false,
-          message: "Unauthorized to update this post",
-        });
-      }
+    }
 
-    
+    if (postData.user.toString() !== userId) {
+      logger.warn("Unauthorized to update this post");
+      return res.status(401).json({
+        success: false,
+        message: "Unauthorized to update this post",
+      });
+    }
+
     if (title !== undefined) postData.title = title;
     if (content !== undefined) postData.content = content;
     if (mediaUrls !== undefined) postData.mediaUrls = mediaUrls;
@@ -214,13 +216,12 @@ const updatePost = async (req, res) => {
       300,
       JSON.stringify(postData)
     );
-    await invalidatePostsCache(req, postId);
 
     logger.info("Post updated successfully");
     return res.status(200).json({
       success: true,
       message: "Post updated successfully",
-      data: postData, 
+      data: postData,
     });
   } catch (error) {
     logger.warn(`update post error: ${error.message}`);
@@ -234,52 +235,55 @@ const updatePost = async (req, res) => {
 
 const likePostToggle = async (req, res) => {
   logger.info("like toggle endpoint hit");
-    try {
-        const postId = req.params.id;
-        const userId = req.user.userId || req.user._id;
+  try {
+    const postId = req.params.id;
+    const userId = req.user.userId || req.user._id;
 
-        const postData = await PostModel.findById(postId);
-        if (!postData) {
-            logger.warn("Post not found");
-            return res
-                .status(404)
-                .json({ success: false, message: "Post not found" });
-        }
+    const postData = await PostModel.findById(postId);
+    if (!postData) {
+      logger.warn("Post not found");
+      return res
+        .status(404)
+        .json({ success: false, message: "Post not found" });
+    }
 
-        const isLiked = postData.likes.some((id) => id.toString() === userId.toString());
-        if (isLiked) {
-            postData.likes = postData.likes.filter((id) => id.toString() !== userId.toString());
-            postData.likeCount--;
-        } else {
-            postData.likes.push(userId);
-            postData.likeCount++;
-        }
+    const isLiked = postData.likes.some(
+      (id) => id.toString() === userId.toString()
+    );
+    if (isLiked) {
+      postData.likes = postData.likes.filter(
+        (id) => id.toString() !== userId.toString()
+      );
+      postData.likeCount--;
+    } else {
+      postData.likes.push(userId);
+      postData.likeCount++;
+    }
 
-        await postData.save();
+    await postData.save();
 
-        await req.redisClient.setex(
-            `post:${postId}`,
-            300,
-            JSON.stringify(postData)
-        );
-        await invalidatePostsCache(req, postId);
+    await req.redisClient.setex(
+      `post:${postId}`,
+      300,
+      JSON.stringify(postData)
+    );
+    await invalidatePostsCache(req, postId);
 
-        if (isLiked) {
-            logger.info("Post unliked successfully");
-            return res.status(200).json({
-                success: true,
-                message: "Post unliked successfully",
-                data: postData,
-            });
-        }
+    if (isLiked) {
+      logger.info("Post unliked successfully");
+      return res.status(200).json({
+        success: true,
+        message: "Post unliked successfully",
+        data: postData,
+      });
+    }
 
-        logger.info("Post liked successfully");
-        return res.status(200).json({
-            success: true,
-            message: "Post liked successfully",
-            data: postData,
-        });
-
+    logger.info("Post liked successfully");
+    return res.status(200).json({
+      success: true,
+      message: "Post liked successfully",
+      data: postData,
+    });
   } catch (error) {
     logger.warn(`like post error: ${error.message}`);
     const message =
@@ -304,18 +308,15 @@ const commentPost = async (req, res) => {
         .json({ success: false, message: "Post not found" });
     }
 
-
     const newComment = new CommentModel({
       user: userId,
       content: content,
     });
     await newComment.save();
 
-    // ✅ ADD Comment ObjectId to Post
     postData.comments.push(newComment._id);
     await postData.save();
 
-    // Cache update
     await req.redisClient.setex(
       `post:${postId}`,
       300,
@@ -327,7 +328,7 @@ const commentPost = async (req, res) => {
     return res.status(200).json({
       success: true,
       message: "Post commented successfully",
-      data: newComment, // Return full comment
+      data: newComment,
     });
   } catch (error) {
     logger.warn(`comment post error: ${error.message}`);
@@ -345,7 +346,6 @@ const deleteCommentPost = async (req, res) => {
     const { postId, commentId } = req.params;
     const userId = req.user._id;
 
-    // ✅ Find and verify comment exists
     const comment = await CommentModel.findById(commentId);
     if (!comment) {
       return res.status(404).json({
@@ -354,7 +354,6 @@ const deleteCommentPost = async (req, res) => {
       });
     }
 
-    // ✅ Authorization check
     if (comment.user.toString() !== userId.toString()) {
       return res.status(403).json({
         success: false,
@@ -362,10 +361,8 @@ const deleteCommentPost = async (req, res) => {
       });
     }
 
-    // ✅ Delete Comment document
     await CommentModel.findByIdAndDelete(commentId);
 
-    // ✅ Remove reference from Post
     const post = await PostModel.findById(postId);
     if (post) {
       post.comments = post.comments.filter((id) => id.toString() !== commentId);
@@ -391,11 +388,11 @@ const deleteCommentPost = async (req, res) => {
 
 module.exports = {
   createPost,
-    getAllPosts,
-    getPost,
-    updatePost,
-    deletePost,
-    likePostToggle,
-    commentPost,
-    deleteCommentPost
+  getAllPosts,
+  getPost,
+  updatePost,
+  deletePost,
+  likePostToggle,
+  commentPost,
+  deleteCommentPost,
 };
