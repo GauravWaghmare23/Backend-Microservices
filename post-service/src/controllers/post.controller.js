@@ -315,6 +315,7 @@ const commentPost = async (req, res) => {
     await newComment.save();
 
     postData.comments.push(newComment._id);
+    postData.commentContent.push(newComment.content);
     await postData.save();
 
     await req.redisClient.setex(

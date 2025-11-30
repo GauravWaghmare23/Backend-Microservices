@@ -5,7 +5,7 @@ const Redis = require("ioredis");
 const helmet = require("helmet");
 const { rateLimit } = require("express-rate-limit");
 const { RedisStore } = require("rate-limit-redis");
-const jwt = require("jsonwebtoken"); 
+const jwt = require("jsonwebtoken");
 const logger = require("./utils/logger.js");
 const proxy = require("express-http-proxy");
 const errorHandler = require("./middlewares/errorHandler.middleware.js");
@@ -49,8 +49,6 @@ const rateLimiting = rateLimit({
 });
 app.use(rateLimiting);
 
-
-
 const authProxyOptions = {
   proxyReqPathResolver: (req) => req.originalUrl.replace(/^\/v1/, "/api"),
   proxyErrorHandler: (err, res) => {
@@ -60,7 +58,14 @@ const authProxyOptions = {
   proxyReqOptDecorator: (proxyReqOpts) => {
     proxyReqOpts.headers["Content-Type"] = "application/json";
     return proxyReqOpts;
-  }
+  },
+  userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+    logger.info(
+      `Response received from auth services: ${proxyRes.statusCode}`
+    );
+
+    return proxyResData;
+  },
 };
 
 const protectedProxyOptions = {
@@ -71,16 +76,51 @@ const protectedProxyOptions = {
   },
   proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
     proxyReqOpts.headers["Content-Type"] = "application/json";
-    proxyReqOpts.headers["x-user-id"] = srcReq.user.userId; 
+    proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
     return proxyReqOpts;
-  }
+  },
+  userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+    logger.info(
+      `Response received from protected services: ${proxyRes.statusCode}`
+    );
+
+    return proxyResData;
+  },
 };
 
+const protectedUploadProxyOptions = {
+  proxyReqPathResolver: (req) => req.originalUrl.replace(/^\/v1/, "/api"),
+  proxyErrorHandler: (err, res) => {
+    logger.error(`Protected upload proxy error: ${err.message}`);
+    res.status(500).json({ success: false, message: "Internal Server Error" });
+  },
+  proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+    proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
+    if (!srcReq.headers["content-type"] == "multipart/form-data") {
+      proxyReqOpts.headers["Content-Type"] = "application/json";
+    }
+    return proxyReqOpts;
+  },
+  userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+    logger.info(
+      `Response received from upload protected services: ${proxyRes.statusCode}`
+    );
 
-app.use("/v1/auth", proxy(process.env.USER_SERVICE_URL, authProxyOptions));   
-app.use("/v1/posts", validateToken, proxy(process.env.POST_SERVICE_URL, protectedProxyOptions));
+    return proxyResData;
+  },
+};
 
-
+app.use("/v1/auth", proxy(process.env.USER_SERVICE_URL, authProxyOptions));
+app.use(
+  "/v1/posts",
+  validateToken,
+  proxy(process.env.POST_SERVICE_URL, protectedProxyOptions)
+);
+app.use(
+  "/v1/media",
+  validateToken,
+  proxy(process.env.MEDIA_SERVICE_URL, protectedUploadProxyOptions)
+);
 
 // Error handler
 app.use(errorHandler);
@@ -89,4 +129,5 @@ app.listen(PORT, () => {
   logger.info(`🚀 API Gateway running on http://localhost:${PORT}`);
   logger.info(`User Service: ${process.env.USER_SERVICE_URL}`);
   logger.info(`Post Service: ${process.env.POST_SERVICE_URL}`);
+  logger.info(`Media Service: ${process.env.MEDIA_SERVICE_URL}`);
 });

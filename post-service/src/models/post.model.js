@@ -31,6 +31,11 @@ const postSchema = new mongoose.Schema(
         ref: "Comment",
       },
     ],
+    commentContent: [
+      {
+        type: String
+      },
+    ],
     mediaUrls: [
       {
         type: String,

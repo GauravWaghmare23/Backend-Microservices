@@ -6,3 +6,9 @@ post-service/combined.log
 post-service/error.log
 media-service/combined.log
 media-service/error.log
+api-gateway/combined.log
+api-gateway/combined.log
+api-gateway/combined.log
+api-gateway/error.log
+post-service/combined.log
+api-gateway/combined.log

@@ -813,3 +813,224 @@
 {"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-30T08:01:20.349Z"}
 {"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T08:01:20.351Z"}
 {"level":"info","message":"User authenticated: 692bf776426b78b1b0a727b1","service":"api-gateway","timestamp":"2025-11-30T08:01:20.355Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:46:29.103Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:46:29.105Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:46:29.106Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:46:29.106Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:53:37.187Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:53:37.191Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:53:37.191Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:53:37.192Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:53:52.790Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:53:52.792Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:53:52.793Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:53:52.793Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:54:27.333Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:54:27.335Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:54:27.336Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:54:27.336Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:54:29.941Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:54:29.943Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:54:29.943Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:54:29.944Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:54:34.973Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:54:34.975Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:54:34.976Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:54:34.976Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:54:49.168Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:54:49.170Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:54:49.171Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:54:49.171Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:54:52.598Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:54:52.600Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:54:52.601Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:54:52.601Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:55:10.807Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:55:10.811Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:55:10.811Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:55:10.812Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:55:13.947Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:55:13.949Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:55:13.950Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:55:13.951Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:55:20.292Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:55:20.296Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:55:20.297Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:55:20.297Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:55:23.865Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:55:23.867Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:55:23.868Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:55:23.868Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:55:32.036Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:55:32.039Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:55:32.039Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:55:32.040Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:55:50.560Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:55:50.563Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:55:50.564Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:55:50.564Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:56:00.550Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:56:00.552Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:56:00.553Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:56:00.553Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:56:03.337Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:56:03.339Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:56:03.340Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:56:03.340Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:56:09.490Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:56:09.492Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:56:09.493Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:56:09.493Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:56:11.296Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:56:11.299Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:56:11.300Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:56:11.301Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:56:13.942Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:56:13.945Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:56:13.945Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:56:13.946Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:56:15.353Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:56:15.355Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:56:15.356Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:56:15.356Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:56:17.674Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:56:17.677Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:56:17.677Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:56:17.678Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:56:54.022Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:56:54.025Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:56:54.026Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:56:54.026Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:56:56.846Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:56:56.849Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:56:56.850Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:56:56.850Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:56:58.884Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:56:58.886Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:56:58.887Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:56:58.887Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:57:16.573Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:57:16.576Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:57:16.577Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:57:16.577Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:57:25.470Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:57:25.472Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:57:25.473Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:57:25.473Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:57:29.379Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:57:29.382Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:57:29.382Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:57:29.383Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:57:34.876Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:57:34.879Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:57:34.880Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:57:34.881Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:57:58.915Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:57:58.917Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:57:58.918Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:57:58.918Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:58:09.830Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:58:09.833Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:58:09.834Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:58:09.835Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T16:59:45.614Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T16:59:45.617Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T16:59:45.617Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T16:59:45.618Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T17:02:01.834Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T17:02:01.836Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T17:02:01.837Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T17:02:01.837Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T17:04:51.649Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T17:04:51.652Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T17:04:51.653Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T17:04:51.653Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T17:06:04.327Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T17:06:04.330Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T17:06:04.330Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T17:06:04.331Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T17:06:12.262Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T17:06:12.264Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T17:06:12.265Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T17:06:12.266Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T17:06:18.135Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T17:06:18.137Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T17:06:18.138Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T17:06:18.139Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T17:06:24.944Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T17:06:24.946Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T17:06:24.946Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T17:06:24.947Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T17:07:34.621Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T17:07:34.623Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T17:07:34.624Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T17:07:34.624Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T17:07:43.301Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T17:07:43.303Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T17:07:43.303Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T17:07:43.304Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T17:07:46.058Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T17:07:46.061Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T17:07:46.061Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T17:07:46.062Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T17:07:53.344Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T17:07:53.347Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T17:07:53.347Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T17:07:53.348Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T17:07:55.913Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T17:07:55.916Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T17:07:55.916Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T17:07:55.917Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T17:08:03.348Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T17:08:03.350Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T17:08:03.350Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T17:08:03.351Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T17:08:09.664Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T17:08:09.666Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T17:08:09.667Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T17:08:09.667Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T17:11:48.321Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T17:11:48.323Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T17:11:48.324Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T17:11:48.324Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T17:11:50.960Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T17:11:50.963Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T17:11:50.963Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T17:11:50.964Z"}
+{"level":"info","message":"Received POST /v1/media/upload","service":"api-gateway","timestamp":"2025-11-30T17:12:00.597Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-30T17:12:00.597Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T17:12:00.604Z"}
+{"level":"warn","message":"No token provided","service":"api-gateway","timestamp":"2025-11-30T17:12:00.605Z"}
+{"level":"info","message":"Received GET /v1/auth/refresh","service":"api-gateway","timestamp":"2025-11-30T17:12:33.447Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-30T17:12:33.448Z"}
+{"level":"info","message":"Response received from auth services: 200","service":"api-gateway","timestamp":"2025-11-30T17:12:33.917Z"}
+{"level":"info","message":"Received POST /v1/media/upload","service":"api-gateway","timestamp":"2025-11-30T17:12:42.930Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-30T17:12:42.930Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T17:12:42.932Z"}
+{"level":"info","message":"User authenticated: 692bf776426b78b1b0a727b1","service":"api-gateway","timestamp":"2025-11-30T17:12:42.936Z"}
+{"level":"error","message":"Protected upload proxy error: Cannot read properties of undefined (reading 'includes')","service":"api-gateway","timestamp":"2025-11-30T17:12:42.936Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T17:13:37.520Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T17:13:37.522Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T17:13:37.523Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T17:13:37.523Z"}
+{"level":"info","message":"Received POST /v1/media/upload","service":"api-gateway","timestamp":"2025-11-30T17:13:39.683Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-30T17:13:39.684Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T17:13:39.690Z"}
+{"level":"info","message":"User authenticated: 692bf776426b78b1b0a727b1","service":"api-gateway","timestamp":"2025-11-30T17:13:39.693Z"}
+{"level":"error","message":"Protected upload proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"api-gateway","timestamp":"2025-11-30T17:13:39.695Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T17:14:02.568Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T17:14:02.573Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T17:14:02.574Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T17:14:02.576Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T17:14:04.314Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T17:14:04.317Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T17:14:04.318Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T17:14:04.318Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T17:14:06.746Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T17:14:06.749Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T17:14:06.749Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T17:14:06.750Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T17:14:08.240Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T17:14:08.242Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T17:14:08.242Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T17:14:08.243Z"}

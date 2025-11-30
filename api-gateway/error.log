@@ -7,3 +7,5 @@
 {"level":"error","message":"Token validation error: undefined","service":"api-gateway","timestamp":"2025-11-29T09:38:02.404Z"}
 {"level":"error","message":"Token validation error: undefined","service":"api-gateway","timestamp":"2025-11-29T09:38:59.032Z"}
 {"level":"error","message":"Token validation error: undefined","service":"api-gateway","timestamp":"2025-11-29T10:01:53.851Z"}
+{"level":"error","message":"Protected upload proxy error: Cannot read properties of undefined (reading 'includes')","service":"api-gateway","timestamp":"2025-11-30T17:12:42.936Z"}
+{"level":"error","message":"Protected upload proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"api-gateway","timestamp":"2025-11-30T17:13:39.695Z"}

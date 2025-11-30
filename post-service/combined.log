@@ -803,3 +803,67 @@
 {"level":"info","message":"get all posts endpoint hit","service":"post-service","timestamp":"2025-11-30T08:01:20.369Z"}
 {"level":"info","message":"Fetching posts from cacheKey : posts:1 :10","service":"post-service","timestamp":"2025-11-30T08:01:20.370Z"}
 {"level":"info","message":"Posts fetched successfully","service":"post-service","timestamp":"2025-11-30T08:01:20.490Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-11-30T16:46:41.338Z"}
+{"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-11-30T16:46:44.229Z"}
+{"level":"info","message":"Incoming request: POST /api/posts/create","service":"post-service","timestamp":"2025-11-30T17:21:57.977Z"}
+{"level":"info","message":"Request body: {\"title\":\"postman images upload scene\",\"content\":\"post man upload screenshot to check it is uploaded or not\",\"mediaUrls\":\"https://res.cloudinary.com/dmpxqpgpo/image/upload/v1764523231/lfrpihdiph0btvfecxs9.png\"}","service":"post-service","timestamp":"2025-11-30T17:21:57.978Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T17:21:57.988Z"}
+{"level":"info","message":"create post endpoint hit","service":"post-service","timestamp":"2025-11-30T17:21:57.990Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-11-30T17:21:58.294Z"}
+{"level":"info","message":"Incoming request: GET /api/posts/all-posts","service":"post-service","timestamp":"2025-11-30T17:22:08.961Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-11-30T17:22:08.961Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T17:22:08.963Z"}
+{"level":"info","message":"get all posts endpoint hit","service":"post-service","timestamp":"2025-11-30T17:22:08.964Z"}
+{"level":"info","message":"Fetching posts from cacheKey : posts:1 :10","service":"post-service","timestamp":"2025-11-30T17:22:08.965Z"}
+{"level":"info","message":"Posts fetched successfully","service":"post-service","timestamp":"2025-11-30T17:22:09.169Z"}
+{"level":"info","message":"Incoming request: GET /api/posts/all-posts","service":"post-service","timestamp":"2025-11-30T17:22:11.654Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-11-30T17:22:11.655Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T17:22:11.657Z"}
+{"level":"info","message":"get all posts endpoint hit","service":"post-service","timestamp":"2025-11-30T17:22:11.657Z"}
+{"level":"info","message":"Fetching posts from cacheKey : posts:1 :10","service":"post-service","timestamp":"2025-11-30T17:22:11.657Z"}
+{"level":"info","message":"Posts fetched from cache","service":"post-service","timestamp":"2025-11-30T17:22:11.659Z"}
+{"level":"info","message":"Incoming request: GET /api/posts/likes/692c7d35231222a0b1389180","service":"post-service","timestamp":"2025-11-30T17:22:30.228Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-11-30T17:22:30.228Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T17:22:30.230Z"}
+{"level":"info","message":"like toggle endpoint hit","service":"post-service","timestamp":"2025-11-30T17:22:30.232Z"}
+{"level":"info","message":"Post liked successfully","service":"post-service","timestamp":"2025-11-30T17:22:30.615Z"}
+{"level":"info","message":"Incoming request: GET /api/posts/likes/692c7d35231222a0b1389180","service":"post-service","timestamp":"2025-11-30T17:22:49.646Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-11-30T17:22:49.646Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T17:22:49.649Z"}
+{"level":"info","message":"like toggle endpoint hit","service":"post-service","timestamp":"2025-11-30T17:22:49.650Z"}
+{"level":"info","message":"Post liked successfully","service":"post-service","timestamp":"2025-11-30T17:22:50.137Z"}
+{"level":"info","message":"Incoming request: GET /api/posts/likes/692c7d35231222a0b1389180","service":"post-service","timestamp":"2025-11-30T17:23:05.150Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-11-30T17:23:05.151Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T17:23:05.153Z"}
+{"level":"info","message":"like toggle endpoint hit","service":"post-service","timestamp":"2025-11-30T17:23:05.154Z"}
+{"level":"info","message":"Post liked successfully","service":"post-service","timestamp":"2025-11-30T17:23:05.787Z"}
+{"level":"info","message":"Incoming request: GET /api/posts/likes/692c7d35231222a0b1389180","service":"post-service","timestamp":"2025-11-30T17:23:25.103Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-11-30T17:23:25.104Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T17:23:25.106Z"}
+{"level":"info","message":"like toggle endpoint hit","service":"post-service","timestamp":"2025-11-30T17:23:25.106Z"}
+{"level":"info","message":"Post unliked successfully","service":"post-service","timestamp":"2025-11-30T17:23:25.647Z"}
+{"level":"info","message":"Incoming request: POST /api/posts/comment/692c7d35231222a0b1389180","service":"post-service","timestamp":"2025-11-30T17:23:50.270Z"}
+{"level":"info","message":"Request body: {\"content\":\"Very helpful and understandable\"}","service":"post-service","timestamp":"2025-11-30T17:23:50.271Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T17:23:50.273Z"}
+{"level":"info","message":"comment post endpoint hit","service":"post-service","timestamp":"2025-11-30T17:23:50.273Z"}
+{"level":"info","message":"Post commented successfully","service":"post-service","timestamp":"2025-11-30T17:23:51.094Z"}
+{"level":"info","message":"Incoming request: GET /api/posts/all-posts","service":"post-service","timestamp":"2025-11-30T17:23:59.551Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-11-30T17:23:59.552Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-11-30T17:23:59.553Z"}
+{"level":"info","message":"get all posts endpoint hit","service":"post-service","timestamp":"2025-11-30T17:23:59.554Z"}
+{"level":"info","message":"Fetching posts from cacheKey : posts:1 :10","service":"post-service","timestamp":"2025-11-30T17:23:59.554Z"}
+{"level":"info","message":"Posts fetched successfully","service":"post-service","timestamp":"2025-11-30T17:23:59.897Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-11-30T17:24:43.772Z"}
+{"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-11-30T17:24:46.830Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-11-30T17:25:01.887Z"}
+{"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-11-30T17:25:05.016Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-11-30T17:25:39.047Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-11-30T17:25:41.219Z"}
+{"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-11-30T17:25:44.563Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-11-30T17:25:48.159Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-11-30T17:25:50.492Z"}
+{"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-11-30T17:25:51.891Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-11-30T17:26:03.705Z"}
+{"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-11-30T17:26:07.573Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-11-30T17:26:09.491Z"}
+{"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-11-30T17:26:12.375Z"}
