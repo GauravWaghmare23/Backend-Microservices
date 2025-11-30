@@ -15,13 +15,14 @@ async function invalidatePostsCache(req, input) {
 const createPost = async (req, res) => {
   logger.info("create post endpoint hit");
   try {
-    const { title, content, mediaUrls } = req.body;
+    const { title, content, mediaUrls, mediaIds } = req.body;
 
     const newPost = new PostModel({
       user: req.user.userId || req.user._id,
       title: title,
       content: content,
       mediaUrls: mediaUrls,
+      mediaIds: mediaIds,
     });
 
     await newPost.save();
@@ -185,7 +186,7 @@ const updatePost = async (req, res) => {
   try {
     const postId = req.params.id;
     const userId = req.user._id;
-    const { title, content, mediaUrls } = req.body;
+    const { title, content, mediaUrls, mediaIds } = req.body;
 
     const postData = await PostModel.findOne({ _id: postId, user: userId });
 
@@ -208,6 +209,7 @@ const updatePost = async (req, res) => {
     if (title !== undefined) postData.title = title;
     if (content !== undefined) postData.content = content;
     if (mediaUrls !== undefined) postData.mediaUrls = mediaUrls;
+    if (mediaIds !== undefined) postData.mediaIds = mediaIds;
 
     await postData.save();
 

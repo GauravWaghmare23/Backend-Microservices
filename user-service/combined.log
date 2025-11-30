@@ -582,3 +582,40 @@
 {"level":"info","message":"User logged in successfully: 692bf776426b78b1b0a727b1","service":"user-service","timestamp":"2025-11-30T08:00:19.100Z"}
 {"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-30T08:01:53.014Z"}
 {"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-30T08:01:53.670Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-30T16:46:47.740Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-30T16:46:52.567Z"}
+{"level":"info","message":"Recieved GET request to /api/auth/refresh","service":"user-service","timestamp":"2025-11-30T17:12:33.484Z"}
+{"level":"info","message":"Request body: {}","service":"user-service","timestamp":"2025-11-30T17:12:33.485Z"}
+{"level":"info","message":"Refresh token endpoint hit","service":"user-service","timestamp":"2025-11-30T17:12:33.490Z"}
+{"level":"info","message":"Tokens refreshed for user: 692bf776426b78b1b0a727b1","service":"user-service","timestamp":"2025-11-30T17:12:33.911Z"}
+{"level":"info","message":"Recieved DELETE request to /api/auth/logout","service":"user-service","timestamp":"2025-11-30T17:22:37.629Z"}
+{"level":"info","message":"Request body: {}","service":"user-service","timestamp":"2025-11-30T17:22:37.630Z"}
+{"level":"info","message":"Logout endpoint hit","service":"user-service","timestamp":"2025-11-30T17:22:37.637Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"user-service","timestamp":"2025-11-30T17:22:44.353Z"}
+{"level":"info","message":"Request body: {\"email\":\"gauravwaghmare2@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-30T17:22:44.353Z"}
+{"level":"info","message":"Login endpoint hit","service":"user-service","timestamp":"2025-11-30T17:22:44.355Z"}
+{"level":"info","message":"User logged in successfully: 692bf79c426b78b1b0a727b8","service":"user-service","timestamp":"2025-11-30T17:22:45.173Z"}
+{"level":"info","message":"Recieved DELETE request to /api/auth/logout","service":"user-service","timestamp":"2025-11-30T17:22:55.265Z"}
+{"level":"info","message":"Request body: {}","service":"user-service","timestamp":"2025-11-30T17:22:55.265Z"}
+{"level":"info","message":"Logout endpoint hit","service":"user-service","timestamp":"2025-11-30T17:22:55.267Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"user-service","timestamp":"2025-11-30T17:23:01.730Z"}
+{"level":"info","message":"Request body: {\"email\":\"gauravwaghmare3@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-30T17:23:01.731Z"}
+{"level":"info","message":"Login endpoint hit","service":"user-service","timestamp":"2025-11-30T17:23:01.733Z"}
+{"level":"info","message":"User logged in successfully: 692bf7f1426b78b1b0a727bf","service":"user-service","timestamp":"2025-11-30T17:23:02.317Z"}
+{"level":"info","message":"Recieved DELETE request to /api/auth/logout","service":"user-service","timestamp":"2025-11-30T17:23:12.596Z"}
+{"level":"info","message":"Request body: {}","service":"user-service","timestamp":"2025-11-30T17:23:12.596Z"}
+{"level":"info","message":"Logout endpoint hit","service":"user-service","timestamp":"2025-11-30T17:23:12.598Z"}
+{"level":"info","message":"Recieved DELETE request to /api/auth/logout","service":"user-service","timestamp":"2025-11-30T17:26:47.107Z"}
+{"level":"info","message":"Request body: {}","service":"user-service","timestamp":"2025-11-30T17:26:47.107Z"}
+{"level":"info","message":"Logout endpoint hit","service":"user-service","timestamp":"2025-11-30T17:26:47.109Z"}
+{"level":"warn","message":"Refresh token not found","service":"user-service","timestamp":"2025-11-30T17:26:47.109Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"user-service","timestamp":"2025-11-30T17:27:02.850Z"}
+{"level":"info","message":"Request body: {\"email\":\"gauravwaghmare5@gmail.com\",\"password\":\"123456789\"}","service":"user-service","timestamp":"2025-11-30T17:27:02.850Z"}
+{"level":"info","message":"Login endpoint hit","service":"user-service","timestamp":"2025-11-30T17:27:02.851Z"}
+{"level":"info","message":"User logged in successfully: 692bf8b4426b78b1b0a727cd","service":"user-service","timestamp":"2025-11-30T17:27:03.412Z"}
+{"level":"info","message":"Recieved GET request to /api/auth/refresh","service":"user-service","timestamp":"2025-11-30T18:03:47.372Z"}
+{"level":"info","message":"Request body: {}","service":"user-service","timestamp":"2025-11-30T18:03:47.373Z"}
+{"level":"info","message":"Refresh token endpoint hit","service":"user-service","timestamp":"2025-11-30T18:03:47.375Z"}
+{"level":"info","message":"Tokens refreshed for user: 692bf8b4426b78b1b0a727cd","service":"user-service","timestamp":"2025-11-30T18:03:47.635Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-30T18:15:41.574Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-30T18:15:41.983Z"}

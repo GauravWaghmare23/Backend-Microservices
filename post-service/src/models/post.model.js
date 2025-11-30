@@ -38,8 +38,12 @@ const postSchema = new mongoose.Schema(
     ],
     mediaUrls: [
       {
+        type: String
+      },
+    ],
+    mediaIds: [
+      {
         type: String,
-        required: true,
       },
     ],
     createdAt: {

@@ -1144,3 +1144,45 @@
 {"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T17:27:34.023Z"}
 {"level":"info","message":"User authenticated: 692bf8b4426b78b1b0a727cd","service":"api-gateway","timestamp":"2025-11-30T17:27:34.024Z"}
 {"level":"info","message":"Response received from protected services: 200","service":"api-gateway","timestamp":"2025-11-30T17:27:34.033Z"}
+{"level":"info","message":"Received GET /v1/auth/refresh","service":"api-gateway","timestamp":"2025-11-30T18:03:47.363Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-30T18:03:47.367Z"}
+{"level":"info","message":"Response received from auth services: 200","service":"api-gateway","timestamp":"2025-11-30T18:03:47.637Z"}
+{"level":"info","message":"Received POST /v1/media/upload","service":"api-gateway","timestamp":"2025-11-30T18:04:20.480Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-30T18:04:20.480Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T18:04:20.482Z"}
+{"level":"info","message":"User authenticated: 692bf8b4426b78b1b0a727cd","service":"api-gateway","timestamp":"2025-11-30T18:04:20.482Z"}
+{"level":"info","message":"Response received from upload protected services: 200","service":"api-gateway","timestamp":"2025-11-30T18:04:23.284Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-30T18:06:51.093Z"}
+{"level":"info","message":"Body: {\"title\":\"postman images upload scene\",\"content\":\"post man upload screenshot to check it is uploaded or not\",\"mediaUrls\":\"https://res.cloudinary.com/dmpxqpgpo/image/upload/v1764525862/gwjoboyizvrokbibykmm.png\",\"mediaIds\":\"692c8726a14ae9660797a8cb\"}","service":"api-gateway","timestamp":"2025-11-30T18:06:51.094Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T18:06:51.095Z"}
+{"level":"info","message":"User authenticated: 692bf8b4426b78b1b0a727cd","service":"api-gateway","timestamp":"2025-11-30T18:06:51.096Z"}
+{"level":"info","message":"Response received from protected services: 201","service":"api-gateway","timestamp":"2025-11-30T18:06:51.860Z"}
+{"level":"info","message":"Received POST /v1/media/upload","service":"api-gateway","timestamp":"2025-11-30T18:08:54.926Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-30T18:08:54.927Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T18:08:54.928Z"}
+{"level":"info","message":"User authenticated: 692bf8b4426b78b1b0a727cd","service":"api-gateway","timestamp":"2025-11-30T18:08:54.929Z"}
+{"level":"info","message":"Response received from upload protected services: 200","service":"api-gateway","timestamp":"2025-11-30T18:08:57.609Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-11-30T18:10:07.938Z"}
+{"level":"info","message":"Body: {\"title\":\"upload image\",\"content\":\"upload image screenshots\",\"mediaUrls\":\"https://res.cloudinary.com/dmpxqpgpo/image/upload/v1764526137/u3wol7loa1ufyjsrkpok.png\",\"mediaIds\":\"692c8839a14ae9660797a8cd\"}","service":"api-gateway","timestamp":"2025-11-30T18:10:07.939Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T18:10:07.940Z"}
+{"level":"info","message":"User authenticated: 692bf8b4426b78b1b0a727cd","service":"api-gateway","timestamp":"2025-11-30T18:10:07.941Z"}
+{"level":"info","message":"Response received from protected services: 201","service":"api-gateway","timestamp":"2025-11-30T18:10:08.048Z"}
+{"level":"info","message":"Received POST /v1/posts/comment/692c887f5d068055318f3ef0","service":"api-gateway","timestamp":"2025-11-30T18:10:37.671Z"}
+{"level":"info","message":"Body: {\"content\":\"Very good post\"}","service":"api-gateway","timestamp":"2025-11-30T18:10:37.671Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T18:10:37.675Z"}
+{"level":"info","message":"User authenticated: 692bf8b4426b78b1b0a727cd","service":"api-gateway","timestamp":"2025-11-30T18:10:37.676Z"}
+{"level":"info","message":"Response received from protected services: 200","service":"api-gateway","timestamp":"2025-11-30T18:10:37.879Z"}
+{"level":"info","message":"Received GET /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-11-30T18:10:43.975Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-30T18:10:43.975Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T18:10:43.979Z"}
+{"level":"info","message":"User authenticated: 692bf8b4426b78b1b0a727cd","service":"api-gateway","timestamp":"2025-11-30T18:10:43.979Z"}
+{"level":"info","message":"Response received from protected services: 200","service":"api-gateway","timestamp":"2025-11-30T18:10:44.104Z"}
+{"level":"info","message":"Received GET /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-11-30T18:10:45.751Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-11-30T18:10:45.751Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-11-30T18:10:45.752Z"}
+{"level":"info","message":"User authenticated: 692bf8b4426b78b1b0a727cd","service":"api-gateway","timestamp":"2025-11-30T18:10:45.753Z"}
+{"level":"info","message":"Response received from protected services: 200","service":"api-gateway","timestamp":"2025-11-30T18:10:45.763Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-11-30T18:15:40.317Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T18:15:40.323Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T18:15:40.325Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T18:15:40.326Z"}
