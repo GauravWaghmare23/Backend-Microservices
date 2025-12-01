@@ -993,3 +993,95 @@
 {"level":"info","message":"get all posts endpoint hit","service":"post-service","timestamp":"2025-12-01T16:36:38.196Z"}
 {"level":"info","message":"Fetching posts from cacheKey : posts:1 :10","service":"post-service","timestamp":"2025-12-01T16:36:38.196Z"}
 {"level":"info","message":"Posts fetched from cache","service":"post-service","timestamp":"2025-12-01T16:36:38.197Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-12-01T16:37:41.380Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-12-01T16:37:41.384Z"}
+{"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-12-01T16:37:43.170Z"}
+{"level":"info","message":"Incoming request: GET /api/posts/all-posts","service":"post-service","timestamp":"2025-12-01T16:38:07.185Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-12-01T16:38:07.186Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-12-01T16:38:07.196Z"}
+{"level":"info","message":"get all posts endpoint hit","service":"post-service","timestamp":"2025-12-01T16:38:07.197Z"}
+{"level":"info","message":"Fetching posts from cacheKey : posts:1 :10","service":"post-service","timestamp":"2025-12-01T16:38:07.198Z"}
+{"level":"info","message":"Posts fetched from cache","service":"post-service","timestamp":"2025-12-01T16:38:07.199Z"}
+{"level":"info","message":"Incoming request: GET /api/posts/all-posts?page=2","service":"post-service","timestamp":"2025-12-01T16:39:13.803Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-12-01T16:39:13.803Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-12-01T16:39:13.806Z"}
+{"level":"info","message":"get all posts endpoint hit","service":"post-service","timestamp":"2025-12-01T16:39:13.807Z"}
+{"level":"info","message":"Fetching posts from cacheKey : posts:2 :10","service":"post-service","timestamp":"2025-12-01T16:39:13.807Z"}
+{"level":"info","message":"Posts fetched successfully","service":"post-service","timestamp":"2025-12-01T16:39:14.016Z"}
+{"level":"info","message":"Incoming request: DELETE /api/posts/692bf78098b47caeeb3f81d5","service":"post-service","timestamp":"2025-12-01T16:40:19.398Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-12-01T16:40:19.398Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-12-01T16:40:19.400Z"}
+{"level":"info","message":"delete post endpoint hit","service":"post-service","timestamp":"2025-12-01T16:40:19.400Z"}
+{"level":"info","message":"Event published: post.deleted","service":"post-service","timestamp":"2025-12-01T16:40:19.712Z"}
+{"level":"info","message":"Post deleted successfully","service":"post-service","timestamp":"2025-12-01T16:40:19.712Z"}
+{"level":"info","message":"Incoming request: GET /api/posts/all-posts?page=2","service":"post-service","timestamp":"2025-12-01T16:42:07.093Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-12-01T16:42:07.094Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-12-01T16:42:07.097Z"}
+{"level":"info","message":"get all posts endpoint hit","service":"post-service","timestamp":"2025-12-01T16:42:07.097Z"}
+{"level":"info","message":"Fetching posts from cacheKey : posts:2 :10","service":"post-service","timestamp":"2025-12-01T16:42:07.097Z"}
+{"level":"info","message":"Posts fetched successfully","service":"post-service","timestamp":"2025-12-01T16:42:07.340Z"}
+{"level":"info","message":"Incoming request: DELETE /api/posts/692bf78d98b47caeeb3f81d7","service":"post-service","timestamp":"2025-12-01T16:42:24.351Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-12-01T16:42:24.352Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-12-01T16:42:24.354Z"}
+{"level":"info","message":"delete post endpoint hit","service":"post-service","timestamp":"2025-12-01T16:42:24.354Z"}
+{"level":"info","message":"Event published: post.deleted","service":"post-service","timestamp":"2025-12-01T16:42:24.745Z"}
+{"level":"info","message":"Post deleted successfully","service":"post-service","timestamp":"2025-12-01T16:42:24.746Z"}
+{"level":"info","message":"Incoming request: GET /api/posts/all-posts?page=2","service":"post-service","timestamp":"2025-12-01T17:02:00.136Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-12-01T17:02:00.136Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-12-01T17:02:00.138Z"}
+{"level":"info","message":"get all posts endpoint hit","service":"post-service","timestamp":"2025-12-01T17:02:00.139Z"}
+{"level":"info","message":"Fetching posts from cacheKey : posts:2 :10","service":"post-service","timestamp":"2025-12-01T17:02:00.139Z"}
+{"level":"info","message":"Posts fetched successfully","service":"post-service","timestamp":"2025-12-01T17:02:00.291Z"}
+{"level":"info","message":"Incoming request: GET /api/posts/all-posts?page=1","service":"post-service","timestamp":"2025-12-01T17:02:10.556Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-12-01T17:02:10.557Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-12-01T17:02:10.559Z"}
+{"level":"info","message":"get all posts endpoint hit","service":"post-service","timestamp":"2025-12-01T17:02:10.560Z"}
+{"level":"info","message":"Fetching posts from cacheKey : posts:1 :10","service":"post-service","timestamp":"2025-12-01T17:02:10.560Z"}
+{"level":"info","message":"Posts fetched successfully","service":"post-service","timestamp":"2025-12-01T17:02:10.732Z"}
+{"level":"info","message":"Incoming request: DELETE /api/posts/692c887f5d068055318f3ef0","service":"post-service","timestamp":"2025-12-01T17:02:48.932Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-12-01T17:02:48.933Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-12-01T17:02:48.935Z"}
+{"level":"info","message":"delete post endpoint hit","service":"post-service","timestamp":"2025-12-01T17:02:48.936Z"}
+{"level":"warn","message":"Unauthorized to delete this post","service":"post-service","timestamp":"2025-12-01T17:02:49.195Z"}
+{"level":"info","message":"Incoming request: DELETE /api/posts/692c887f5d068055318f3ef0","service":"post-service","timestamp":"2025-12-01T17:03:11.755Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-12-01T17:03:11.756Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-12-01T17:03:11.758Z"}
+{"level":"info","message":"delete post endpoint hit","service":"post-service","timestamp":"2025-12-01T17:03:11.759Z"}
+{"level":"info","message":"Event published: post.deleted","service":"post-service","timestamp":"2025-12-01T17:03:11.906Z"}
+{"level":"info","message":"Post deleted successfully","service":"post-service","timestamp":"2025-12-01T17:03:11.906Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-12-01T17:33:18.909Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-12-01T17:33:18.913Z"}
+{"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-12-01T17:33:19.683Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-12-01T18:20:02.084Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-12-01T18:20:02.087Z"}
+{"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-12-01T18:20:02.961Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-12-01T18:20:08.904Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-12-01T18:20:08.907Z"}
+{"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-12-01T18:20:09.292Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-12-01T18:20:12.510Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-12-01T18:20:12.513Z"}
+{"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-12-01T18:20:12.899Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-12-01T18:20:16.195Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-12-01T18:20:16.199Z"}
+{"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-12-01T18:20:16.612Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-12-01T18:20:22.271Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-12-01T18:20:22.275Z"}
+{"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-12-01T18:20:22.726Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-12-01T18:20:31.624Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-12-01T18:20:31.629Z"}
+{"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-12-01T18:20:32.359Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-12-01T18:20:38.412Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-12-01T18:20:38.416Z"}
+{"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-12-01T18:20:38.779Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-12-01T18:20:42.965Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-12-01T18:20:42.968Z"}
+{"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-12-01T18:20:43.485Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-12-01T18:21:16.065Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-12-01T18:21:16.069Z"}
+{"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-12-01T18:21:16.621Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-12-01T18:21:18.316Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-12-01T18:21:18.321Z"}
+{"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-12-01T18:21:18.707Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-12-01T18:21:24.512Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-12-01T18:21:24.515Z"}
+{"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-12-01T18:21:24.933Z"}

@@ -121,6 +121,12 @@ app.use(
   validateToken,
   proxy(process.env.MEDIA_SERVICE_URL, protectedUploadProxyOptions)
 );
+app.use(
+  "/v1/search",
+  validateToken,
+  proxy(process.env.SEARCH_SERVICE_URL, protectedProxyOptions)
+);
+
 
 // Error handler
 app.use(errorHandler);
@@ -130,4 +136,5 @@ app.listen(PORT, () => {
   logger.info(`User Service: ${process.env.USER_SERVICE_URL}`);
   logger.info(`Post Service: ${process.env.POST_SERVICE_URL}`);
   logger.info(`Media Service: ${process.env.MEDIA_SERVICE_URL}`);
+  logger.info(`Search Service: ${process.env.SEARCH_SERVICE_URL}`);
 });
