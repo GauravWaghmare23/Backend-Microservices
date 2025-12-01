@@ -1085,3 +1085,18 @@
 {"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-12-01T18:21:24.512Z"}
 {"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-12-01T18:21:24.515Z"}
 {"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-12-01T18:21:24.933Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-12-01T18:21:28.738Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-12-01T18:21:28.743Z"}
+{"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-12-01T18:21:29.402Z"}
+{"level":"info","message":"Incoming request: POST /api/posts/create","service":"post-service","timestamp":"2025-12-01T18:46:37.767Z"}
+{"level":"info","message":"Request body: {\"title\":\"my post 1\",\"content\":\"upload image screenshots\",\"mediaUrls\":\"https://res.cloudinary.com/dmpxqpgpo/image/upload/v1764614753/gdnuqfpf2ey3lzoxphit.png\",\"mediaIds\":\"692de262fe06f5679792dd04\"}","service":"post-service","timestamp":"2025-12-01T18:46:37.768Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-12-01T18:46:37.779Z"}
+{"level":"info","message":"create post endpoint hit","service":"post-service","timestamp":"2025-12-01T18:46:37.781Z"}
+{"level":"info","message":"Event published: post.created","service":"post-service","timestamp":"2025-12-01T18:46:37.851Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-12-01T18:46:37.852Z"}
+{"level":"info","message":"Incoming request: POST /api/posts/create","service":"post-service","timestamp":"2025-12-01T18:52:38.848Z"}
+{"level":"info","message":"Request body: {\"title\":\"my post 3\",\"content\":\"upload image screenshots\",\"mediaUrls\":\"https://res.cloudinary.com/dmpxqpgpo/image/upload/v1764614753/gdnuqfpf2ey3lzoxphit.png\",\"mediaIds\":\"692de262fe06f5679792dd04\"}","service":"post-service","timestamp":"2025-12-01T18:52:38.849Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-12-01T18:52:38.853Z"}
+{"level":"info","message":"create post endpoint hit","service":"post-service","timestamp":"2025-12-01T18:52:38.854Z"}
+{"level":"info","message":"Event published: post.created","service":"post-service","timestamp":"2025-12-01T18:52:38.899Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-12-01T18:52:38.900Z"}

@@ -1326,3 +1326,76 @@
 {"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-12-01T18:44:35.099Z"}
 {"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-12-01T18:44:35.099Z"}
 {"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-12-01T18:44:35.100Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-12-01T18:44:37.088Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-12-01T18:44:37.090Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-12-01T18:44:37.091Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-12-01T18:44:37.091Z"}
+{"level":"info","message":"Search Service: http://localhost:3004","service":"api-gateway","timestamp":"2025-12-01T18:44:37.092Z"}
+{"level":"info","message":"Received GET /v1/auth/refresh","service":"api-gateway","timestamp":"2025-12-01T18:44:44.209Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-12-01T18:44:44.210Z"}
+{"level":"info","message":"Response received from auth services: 200","service":"api-gateway","timestamp":"2025-12-01T18:44:44.460Z"}
+{"level":"info","message":"Received POST /v1/media/upload","service":"api-gateway","timestamp":"2025-12-01T18:45:51.625Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-12-01T18:45:51.626Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-12-01T18:45:51.629Z"}
+{"level":"info","message":"User authenticated: 692bf8b4426b78b1b0a727cd","service":"api-gateway","timestamp":"2025-12-01T18:45:51.632Z"}
+{"level":"info","message":"Response received from upload protected services: 200","service":"api-gateway","timestamp":"2025-12-01T18:45:55.081Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-12-01T18:46:37.724Z"}
+{"level":"info","message":"Body: {\"title\":\"my post 1\",\"content\":\"upload image screenshots\",\"mediaUrls\":\"https://res.cloudinary.com/dmpxqpgpo/image/upload/v1764614753/gdnuqfpf2ey3lzoxphit.png\",\"mediaIds\":\"692de262fe06f5679792dd04\"}","service":"api-gateway","timestamp":"2025-12-01T18:46:37.725Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-12-01T18:46:37.727Z"}
+{"level":"info","message":"User authenticated: 692bf8b4426b78b1b0a727cd","service":"api-gateway","timestamp":"2025-12-01T18:46:37.729Z"}
+{"level":"info","message":"Response received from protected services: 201","service":"api-gateway","timestamp":"2025-12-01T18:46:37.858Z"}
+{"level":"info","message":"Received POST /v1/search/?query=post","service":"api-gateway","timestamp":"2025-12-01T18:47:53.759Z"}
+{"level":"info","message":"Body: {\"title\":\"post 1\",\"content\":\"post 1 content\",\"mediaUrls\":\"post1url\"}","service":"api-gateway","timestamp":"2025-12-01T18:47:53.760Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-12-01T18:47:53.762Z"}
+{"level":"info","message":"User authenticated: 692bf8b4426b78b1b0a727cd","service":"api-gateway","timestamp":"2025-12-01T18:47:53.762Z"}
+{"level":"error","message":"Protected proxy error: ","service":"api-gateway","timestamp":"2025-12-01T18:47:53.767Z"}
+{"level":"info","message":"Received POST /v1/search/?query=upload","service":"api-gateway","timestamp":"2025-12-01T18:51:24.218Z"}
+{"level":"info","message":"Body: {}","service":"api-gateway","timestamp":"2025-12-01T18:51:24.218Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-12-01T18:51:24.220Z"}
+{"level":"info","message":"User authenticated: 692bf8b4426b78b1b0a727cd","service":"api-gateway","timestamp":"2025-12-01T18:51:24.221Z"}
+{"level":"error","message":"Protected proxy error: ","service":"api-gateway","timestamp":"2025-12-01T18:51:24.224Z"}
+{"level":"info","message":"Received POST /v1/search?query=upload","service":"api-gateway","timestamp":"2025-12-01T18:51:28.137Z"}
+{"level":"info","message":"Body: {}","service":"api-gateway","timestamp":"2025-12-01T18:51:28.137Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-12-01T18:51:28.140Z"}
+{"level":"info","message":"User authenticated: 692bf8b4426b78b1b0a727cd","service":"api-gateway","timestamp":"2025-12-01T18:51:28.140Z"}
+{"level":"error","message":"Protected proxy error: ","service":"api-gateway","timestamp":"2025-12-01T18:51:28.142Z"}
+{"level":"info","message":"Received POST /v1/posts/create","service":"api-gateway","timestamp":"2025-12-01T18:52:38.843Z"}
+{"level":"info","message":"Body: {\"title\":\"my post 3\",\"content\":\"upload image screenshots\",\"mediaUrls\":\"https://res.cloudinary.com/dmpxqpgpo/image/upload/v1764614753/gdnuqfpf2ey3lzoxphit.png\",\"mediaIds\":\"692de262fe06f5679792dd04\"}","service":"api-gateway","timestamp":"2025-12-01T18:52:38.843Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-12-01T18:52:38.845Z"}
+{"level":"info","message":"User authenticated: 692bf8b4426b78b1b0a727cd","service":"api-gateway","timestamp":"2025-12-01T18:52:38.845Z"}
+{"level":"info","message":"Response received from protected services: 201","service":"api-gateway","timestamp":"2025-12-01T18:52:38.902Z"}
+{"level":"info","message":"Received POST /v1/search?query=upload","service":"api-gateway","timestamp":"2025-12-01T18:52:48.815Z"}
+{"level":"info","message":"Body: {}","service":"api-gateway","timestamp":"2025-12-01T18:52:48.816Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-12-01T18:52:48.816Z"}
+{"level":"info","message":"User authenticated: 692bf8b4426b78b1b0a727cd","service":"api-gateway","timestamp":"2025-12-01T18:52:48.817Z"}
+{"level":"error","message":"Protected proxy error: socket hang up","service":"api-gateway","timestamp":"2025-12-01T18:53:06.693Z"}
+{"level":"info","message":"Received POST /v1/search/?query=upload","service":"api-gateway","timestamp":"2025-12-01T18:53:07.692Z"}
+{"level":"info","message":"Body: {}","service":"api-gateway","timestamp":"2025-12-01T18:53:07.693Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-12-01T18:53:07.694Z"}
+{"level":"info","message":"User authenticated: 692bf8b4426b78b1b0a727cd","service":"api-gateway","timestamp":"2025-12-01T18:53:07.695Z"}
+{"level":"error","message":"Protected proxy error: socket hang up","service":"api-gateway","timestamp":"2025-12-01T18:53:54.570Z"}
+{"level":"info","message":"Received GET /v1/search?query=upload","service":"api-gateway","timestamp":"2025-12-01T18:54:30.922Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-12-01T18:54:30.923Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-12-01T18:54:30.924Z"}
+{"level":"info","message":"User authenticated: 692bf8b4426b78b1b0a727cd","service":"api-gateway","timestamp":"2025-12-01T18:54:30.925Z"}
+{"level":"error","message":"Protected proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-12-01T18:54:55.274Z"}
+{"level":"info","message":"Received GET /v1/search?query=upload","service":"api-gateway","timestamp":"2025-12-01T18:55:05.063Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-12-01T18:55:05.064Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-12-01T18:55:05.065Z"}
+{"level":"info","message":"User authenticated: 692bf8b4426b78b1b0a727cd","service":"api-gateway","timestamp":"2025-12-01T18:55:05.066Z"}
+{"level":"error","message":"Protected proxy error: socket hang up","service":"api-gateway","timestamp":"2025-12-01T18:55:46.168Z"}
+{"level":"info","message":"Received GET /v1/search/?query=uplo","service":"api-gateway","timestamp":"2025-12-01T18:56:27.239Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-12-01T18:56:27.239Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-12-01T18:56:27.240Z"}
+{"level":"info","message":"User authenticated: 692bf8b4426b78b1b0a727cd","service":"api-gateway","timestamp":"2025-12-01T18:56:27.241Z"}
+{"level":"error","message":"Protected proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-12-01T18:58:31.689Z"}
+{"level":"info","message":"Received GET /v1/search/?query=uplo","service":"api-gateway","timestamp":"2025-12-01T18:58:41.594Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-12-01T18:58:41.594Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-12-01T18:58:41.595Z"}
+{"level":"info","message":"User authenticated: 692bf8b4426b78b1b0a727cd","service":"api-gateway","timestamp":"2025-12-01T18:58:41.595Z"}
+{"level":"info","message":"Response received from protected services: 200","service":"api-gateway","timestamp":"2025-12-01T18:58:41.681Z"}
+{"level":"info","message":"Received GET /v1/search/?query=upload","service":"api-gateway","timestamp":"2025-12-01T18:58:56.393Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-12-01T18:58:56.393Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-12-01T18:58:56.394Z"}
+{"level":"info","message":"User authenticated: 692bf8b4426b78b1b0a727cd","service":"api-gateway","timestamp":"2025-12-01T18:58:56.394Z"}
+{"level":"info","message":"Response received from protected services: 200","service":"api-gateway","timestamp":"2025-12-01T18:58:56.445Z"}
