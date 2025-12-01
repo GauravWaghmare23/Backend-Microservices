@@ -942,3 +942,54 @@
 {"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-12-01T13:57:19.786Z"}
 {"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-12-01T14:25:35.278Z"}
 {"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-12-01T14:25:35.294Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-12-01T16:31:32.564Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-12-01T16:31:32.568Z"}
+{"level":"error","message":"Error connecting to MongoDB post-service: connect ETIMEDOUT 34.93.88.227:27017","service":"post-service","timestamp":"2025-12-01T16:31:54.223Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-12-01T16:31:55.497Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-12-01T16:31:55.501Z"}
+{"level":"error","message":"Error connecting to MongoDB post-service: connect ETIMEDOUT 34.93.88.227:27017","service":"post-service","timestamp":"2025-12-01T16:32:16.834Z"}
+{"level":"info","message":"Incoming request: GET /api/posts/all-posts","service":"post-service","timestamp":"2025-12-01T16:32:46.321Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-12-01T16:32:46.322Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-12-01T16:32:46.336Z"}
+{"level":"info","message":"get all posts endpoint hit","service":"post-service","timestamp":"2025-12-01T16:32:46.337Z"}
+{"level":"info","message":"Fetching posts from cacheKey : posts:1 :10","service":"post-service","timestamp":"2025-12-01T16:32:46.338Z"}
+{"level":"warn","message":"get all posts error: Operation `posts.find()` buffering timed out after 10000ms","service":"post-service","timestamp":"2025-12-01T16:32:56.350Z"}
+{"level":"info","message":"Incoming request: GET /api/posts/all-posts","service":"post-service","timestamp":"2025-12-01T16:33:02.505Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-12-01T16:33:02.506Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-12-01T16:33:02.509Z"}
+{"level":"info","message":"get all posts endpoint hit","service":"post-service","timestamp":"2025-12-01T16:33:02.510Z"}
+{"level":"info","message":"Fetching posts from cacheKey : posts:1 :10","service":"post-service","timestamp":"2025-12-01T16:33:02.510Z"}
+{"level":"warn","message":"get all posts error: Operation `posts.find()` buffering timed out after 10000ms","service":"post-service","timestamp":"2025-12-01T16:33:12.517Z"}
+{"level":"info","message":"Incoming request: GET /api/posts/all-posts","service":"post-service","timestamp":"2025-12-01T16:33:39.751Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-12-01T16:33:39.751Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-12-01T16:33:39.755Z"}
+{"level":"info","message":"get all posts endpoint hit","service":"post-service","timestamp":"2025-12-01T16:33:39.755Z"}
+{"level":"info","message":"Fetching posts from cacheKey : posts:1 :10","service":"post-service","timestamp":"2025-12-01T16:33:39.755Z"}
+{"level":"warn","message":"get all posts error: Operation `posts.find()` buffering timed out after 10000ms","service":"post-service","timestamp":"2025-12-01T16:33:49.762Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-12-01T16:34:58.238Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-12-01T16:34:58.242Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-12-01T16:35:48.376Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-12-01T16:35:48.380Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-12-01T16:35:53.239Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-12-01T16:35:53.242Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-12-01T16:35:55.289Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-12-01T16:35:55.293Z"}
+{"level":"error","message":"Error connecting to MongoDB post-service: getaddrinfo ENOENT ac-qpxx9sc-shard-00-01.oxtp9oi.mongodb.net","service":"post-service","timestamp":"2025-12-01T16:36:02.240Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-12-01T16:36:23.271Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-12-01T16:36:23.274Z"}
+{"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-12-01T16:36:25.701Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-12-01T16:36:27.253Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-12-01T16:36:27.258Z"}
+{"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-12-01T16:36:28.117Z"}
+{"level":"info","message":"Incoming request: GET /api/posts/all-posts","service":"post-service","timestamp":"2025-12-01T16:36:34.513Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-12-01T16:36:34.514Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-12-01T16:36:34.521Z"}
+{"level":"info","message":"get all posts endpoint hit","service":"post-service","timestamp":"2025-12-01T16:36:34.522Z"}
+{"level":"info","message":"Fetching posts from cacheKey : posts:1 :10","service":"post-service","timestamp":"2025-12-01T16:36:34.522Z"}
+{"level":"info","message":"Posts fetched successfully","service":"post-service","timestamp":"2025-12-01T16:36:34.720Z"}
+{"level":"info","message":"Incoming request: GET /api/posts/all-posts","service":"post-service","timestamp":"2025-12-01T16:36:38.190Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-12-01T16:36:38.190Z"}
+{"level":"info","message":"Authentication middleware hit","service":"post-service","timestamp":"2025-12-01T16:36:38.195Z"}
+{"level":"info","message":"get all posts endpoint hit","service":"post-service","timestamp":"2025-12-01T16:36:38.196Z"}
+{"level":"info","message":"Fetching posts from cacheKey : posts:1 :10","service":"post-service","timestamp":"2025-12-01T16:36:38.196Z"}
+{"level":"info","message":"Posts fetched from cache","service":"post-service","timestamp":"2025-12-01T16:36:38.197Z"}

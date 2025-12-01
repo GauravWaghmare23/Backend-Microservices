@@ -1202,3 +1202,7 @@
 {"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-12-01T13:58:56.016Z"}
 {"level":"info","message":"User authenticated: 692bf8b4426b78b1b0a727cd","service":"api-gateway","timestamp":"2025-12-01T13:58:56.020Z"}
 {"level":"info","message":"Response received from upload protected services: 200","service":"api-gateway","timestamp":"2025-12-01T13:58:56.303Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-12-01T16:31:53.446Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-12-01T16:31:53.448Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-12-01T16:31:53.449Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-12-01T16:31:53.449Z"}

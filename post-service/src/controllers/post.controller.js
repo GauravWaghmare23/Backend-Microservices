@@ -1,6 +1,7 @@
 const CommentModel = require("../models/comment.model.js");
 const PostModel = require("../models/post.model.js");
 const logger = require("../utils/logger.js");
+const { publishEvent } = require("../utils/rabbitmq.js");
 
 async function invalidatePostsCache(req, input) {
   const cachedKey = `post:${input}`;
@@ -135,6 +136,7 @@ const getPost = async (req, res) => {
   }
 };
 
+
 const deletePost = async (req, res) => {
   logger.info("delete post endpoint hit");
   try {
@@ -158,14 +160,25 @@ const deletePost = async (req, res) => {
       _id: postId,
       user: userId,
     });
+
+
     if (!deletedPost) {
       logger.warn("Post not found");
       return res
         .status(404)
         .json({ success: false, message: "Post not found" });
     }
+
+    await publishEvent("post.deleted", {
+      postId: deletedPost._id.toString(),
+      userId: userId,
+      mediaIds: deletedPost.mediaIds,
+    });
+
     logger.info("Post deleted successfully");
+
     invalidatePostsCache(req, deletedPost._id.toString());
+
     return res.status(200).json({
       success: true,
       message: "Post deleted successfully",

@@ -6,7 +6,7 @@ const connectDb = async () => {
         await mongoose.connect(process.env.MONGODB_URI).then(() => {
             logger.info('Connected to MongoDB in media-service');
         }).catch((error) => {
-            logger.error(`Error connecting to MongoDB media-service: ${error.message}`);
+            logger.error(`Error MongoDB media-service: ${error.message}`);
         })
     } catch (error) {
         logger.error(`Error connecting to MongoDB media-service : ${error.message}`);

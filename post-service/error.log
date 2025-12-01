@@ -1,0 +1,3 @@
+{"level":"error","message":"Error connecting to MongoDB post-service: connect ETIMEDOUT 34.93.88.227:27017","service":"post-service","timestamp":"2025-12-01T16:31:54.223Z"}
+{"level":"error","message":"Error connecting to MongoDB post-service: connect ETIMEDOUT 34.93.88.227:27017","service":"post-service","timestamp":"2025-12-01T16:32:16.834Z"}
+{"level":"error","message":"Error connecting to MongoDB post-service: getaddrinfo ENOENT ac-qpxx9sc-shard-00-01.oxtp9oi.mongodb.net","service":"post-service","timestamp":"2025-12-01T16:36:02.240Z"}

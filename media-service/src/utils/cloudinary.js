@@ -42,4 +42,5 @@ const deleteMediaFromCloudinary = (publicId) => {
 
 module.exports = {
   uploadMediaToCloudinary,
+  deleteMediaFromCloudinary
 };
