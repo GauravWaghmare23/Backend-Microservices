@@ -51,7 +51,18 @@ const uploadMedia = async (req, res) => {
   }
 };
 
+const getAllMedias = async (req, res) => {
+  try {
+    const allMedias = await MediaModel.find({});
+    return res.status(200).json({ success: true, medias: allMedias });
+  } catch (error) {
+    logger.error(`Error getting all medias: ${error.message}`);
+    return res.status(500).json({ success: false, message: error.message });
+  }
+}
+
 
 module.exports = {
-  uploadMedia
+  uploadMedia,
+  getAllMedias
 };

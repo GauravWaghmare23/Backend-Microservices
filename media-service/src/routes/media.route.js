@@ -3,7 +3,7 @@ const router = express.Router();
 const multer = require("multer");
 const authenticationMiddleware = require("../middlewares/auth.middleware.js");
 const logger = require("../utils/logger.js");
-const {uploadMedia} = require("../controllers/media.controller.js");
+const {uploadMedia, getAllMedias} = require("../controllers/media.controller.js");
 
 const upload = multer({
   storage: multer.memoryStorage(),
@@ -46,6 +46,8 @@ router.post(
   },
   uploadMedia
 );
+
+router.get("/all-medias", authenticationMiddleware, getAllMedias);
 
 
 module.exports = router;

@@ -937,3 +937,8 @@
 {"level":"info","message":"Posts fetched from cache","service":"post-service","timestamp":"2025-11-30T18:10:45.762Z"}
 {"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-11-30T18:15:40.625Z"}
 {"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-11-30T18:15:41.252Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-12-01T13:57:19.582Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-12-01T13:57:19.585Z"}
+{"level":"info","message":"Connected to MongoDB in post-service","service":"post-service","timestamp":"2025-12-01T13:57:19.786Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-12-01T14:25:35.278Z"}
+{"level":"info","message":"Post Server running on port http://localhost:3002","service":"post-service","timestamp":"2025-12-01T14:25:35.294Z"}

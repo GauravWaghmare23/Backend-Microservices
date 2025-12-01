@@ -619,3 +619,9 @@
 {"level":"info","message":"Tokens refreshed for user: 692bf8b4426b78b1b0a727cd","service":"user-service","timestamp":"2025-11-30T18:03:47.635Z"}
 {"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-11-30T18:15:41.574Z"}
 {"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-11-30T18:15:41.983Z"}
+{"level":"info","message":"User Server running on port http://localhost:3001","service":"user-service","timestamp":"2025-12-01T13:57:02.906Z"}
+{"level":"info","message":"Connected to MongoDB","service":"user-service","timestamp":"2025-12-01T13:57:04.832Z"}
+{"level":"info","message":"Recieved GET request to /api/auth/refresh","service":"user-service","timestamp":"2025-12-01T13:58:49.476Z"}
+{"level":"info","message":"Request body: {}","service":"user-service","timestamp":"2025-12-01T13:58:49.477Z"}
+{"level":"info","message":"Refresh token endpoint hit","service":"user-service","timestamp":"2025-12-01T13:58:49.484Z"}
+{"level":"info","message":"Tokens refreshed for user: 692bf8b4426b78b1b0a727cd","service":"user-service","timestamp":"2025-12-01T13:58:50.761Z"}

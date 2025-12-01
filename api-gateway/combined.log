@@ -1186,3 +1186,19 @@
 {"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-11-30T18:15:40.323Z"}
 {"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-11-30T18:15:40.325Z"}
 {"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-11-30T18:15:40.326Z"}
+{"level":"info","message":"🚀 API Gateway running on http://localhost:3000","service":"api-gateway","timestamp":"2025-12-01T13:57:07.239Z"}
+{"level":"info","message":"User Service: http://localhost:3001","service":"api-gateway","timestamp":"2025-12-01T13:57:07.241Z"}
+{"level":"info","message":"Post Service: http://localhost:3002","service":"api-gateway","timestamp":"2025-12-01T13:57:07.242Z"}
+{"level":"info","message":"Media Service: http://localhost:3003","service":"api-gateway","timestamp":"2025-12-01T13:57:07.242Z"}
+{"level":"info","message":"Received GET /v1/media/all-medias","service":"api-gateway","timestamp":"2025-12-01T13:58:39.243Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-12-01T13:58:39.245Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-12-01T13:58:39.255Z"}
+{"level":"warn","message":"No token provided","service":"api-gateway","timestamp":"2025-12-01T13:58:39.256Z"}
+{"level":"info","message":"Received GET /v1/auth/refresh","service":"api-gateway","timestamp":"2025-12-01T13:58:49.430Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-12-01T13:58:49.431Z"}
+{"level":"info","message":"Response received from auth services: 200","service":"api-gateway","timestamp":"2025-12-01T13:58:50.766Z"}
+{"level":"info","message":"Received GET /v1/media/all-medias","service":"api-gateway","timestamp":"2025-12-01T13:58:56.014Z"}
+{"level":"info","message":"Body: undefined","service":"api-gateway","timestamp":"2025-12-01T13:58:56.015Z"}
+{"level":"info","message":"validateToken middleware hit","service":"api-gateway","timestamp":"2025-12-01T13:58:56.016Z"}
+{"level":"info","message":"User authenticated: 692bf8b4426b78b1b0a727cd","service":"api-gateway","timestamp":"2025-12-01T13:58:56.020Z"}
+{"level":"info","message":"Response received from upload protected services: 200","service":"api-gateway","timestamp":"2025-12-01T13:58:56.303Z"}
